@@ -1746,7 +1746,7 @@
 		D2E32A5430A5AB790087B944 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CANONDIR = "$(LIBDIR)/EDSDK_v131231_Macintosh";
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
@@ -1811,7 +1811,7 @@
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/cameras\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(LIBDIR)/HID64/build/Deployment\"";
 				LIBRAWDIR = "$(LIBDIR)/LibRaw-0.20.2";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0.0;
 				OTHER_CFLAGS = (
 					"-D__WXMAC__",
@@ -1855,20 +1855,21 @@
 				SECTORDER_FLAGS = "";
 				STRIP_INSTALLED_PRODUCT = NO;
 				USER_HEADER_SEARCH_PATHS = "$(CANONDIR)/EDSDK/Header $(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1 $(WXDIR)/include $(LIBDIR)/cfitsio_3290 $(LIBRAWDIR)/libraw /usr/local/include";
-				VALID_ARCHS = "i386 x86_64";
+				VALID_ARCHS = arm64;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
 					"-Wno-unknown-pragmas",
 				);
 				WXDIR = "$(LIBDIR)/wxWidgets-3.1.2";
+				ALWAYS_SEARCH_USER_PATHS = NO;
 			};
 			name = Development;
 		};
 		D2E32A5530A5AB790087B944 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CANONDIR = "$(LIBDIR)/EDSDK_v131231_Macintosh";
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
@@ -1933,7 +1934,7 @@
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/cameras\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(LIBDIR)/HID64/build/Deployment\"";
 				LIBRAWDIR = "$(LIBDIR)/LibRaw-0.20.2";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0.0;
 				OTHER_CFLAGS = (
 					"-D__WXMAC__",
@@ -1977,20 +1978,21 @@
 				SECTORDER_FLAGS = "";
 				STRIP_INSTALLED_PRODUCT = NO;
 				USER_HEADER_SEARCH_PATHS = "$(CANONDIR)/EDSDK/Header $(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1 $(WXDIR)/include $(LIBDIR)/cfitsio_3290 $(LIBRAWDIR)/libraw /usr/local/include";
-				VALID_ARCHS = "i386 x86_64";
+				VALID_ARCHS = arm64;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
 					"-Wno-unknown-pragmas",
 				);
 				WXDIR = "$(LIBDIR)/wxWidgets-3.1.2";
+				ALWAYS_SEARCH_USER_PATHS = NO;
 			};
 			name = Deployment;
 		};
 		D2E32A5630A5AB790087B944 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CANONDIR = "$(LIBDIR)/EDSDK_v131231_Macintosh";
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
@@ -2053,7 +2055,7 @@
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/cameras\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(LIBDIR)/HID64/build/Deployment\"";
 				LIBRAWDIR = "$(LIBDIR)/LibRaw-0.20.2";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0.0;
 				OTHER_CFLAGS = (
 					"-D__WXMAC__",
@@ -2103,6 +2105,8 @@
 					"-Wno-unknown-pragmas",
 				);
 				WXDIR = "$(LIBDIR)/wxWidgets-3.1.2";
+				VALID_ARCHS = arm64;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 			};
 			name = Default;
 		};
