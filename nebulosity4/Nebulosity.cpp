@@ -33,6 +33,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 /////////////////////////////////////////////////////////////////////////////
 #include "precomp.h"
+#ifdef NEB_ARM64_PREVIEW
+#include "arm64/Language_compat.h"
+#include "arm64/MacCameraDiscovery.h"
+#endif
 
 #ifdef __GNUG__
 #pragma implementation "Nebulosity.h"
@@ -74,7 +78,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "setup_tools.h"
 #include "CamToolDialogs.h"
 #include "macro.h"
+#if defined(__APPLE__) && defined(__aarch64__)
+#include "arm64/FreeImage_compat.h"
+#else
 #include "FreeImage.h"
+#endif
 #include "focus.h"
 #include "focuser.h"
 #include "ext_filterwheel.h"
@@ -207,9 +215,13 @@ bool MyApp::OnInit(void) {
 	wxConfig *config = new wxConfig("Nebulosity4");
 	long lval;
 	config->SetPath("/Preferences");
+#ifdef NEB_ARM64_PREVIEW
+	Pref.Language = ReadARM64Language(*config);
+#else
 	lval = (long) Pref.Language;
 	config->Read("Language",&lval);
 	Pref.Language = (wxLanguage) lval;
+#endif
 	delete config;
 	if (DEBUGSTART) wxMessageBox("2");
 	
@@ -381,7 +393,10 @@ bool MyApp::OnInit(void) {
 			LoadFITSFile(arg.fn_str());
         else if ((ext.IsSameAs(_T("png"),false)) || (ext.IsSameAs(_T("tiff"),false)) || (ext.IsSameAs(_T("tif"),false)) \
                  || (ext.IsSameAs(_T("jpg"),false)) || (ext.IsSameAs(_T("jpeg"),false)) || (ext.IsSameAs(_T("bmp"),false)) \
-                 || (ext.IsSameAs(_T("cr2"),false)) || (ext.IsSameAs(_T("CR2"),false)) || (ext.IsSameAs(_T("nef"),false)) \
+                 || (ext.IsSameAs(_T("cr2"),false)) || (ext.IsSameAs(_T("CR2"),false)) || (ext.IsSameAs(_T("nef"),false))
+#ifdef NEB_ARM64_PREVIEW
+                 || (ext.IsSameAs(_T("arw"),false))
+#endif
                  || (ext.IsSameAs(_T("cr3"),false)) || (ext.IsSameAs(_T("CR3"),false)) ) {
             GenericLoadFile(arg.fn_str());;
         }
@@ -715,6 +730,14 @@ wxFrame(frame, wxID_ANY, title, pos, size,wxDEFAULT_FRAME_STYLE | wxFULL_REPAINT
 	help_menu->Append(MENU_ABOUT, _("&About"), _("About Nebulosity"));
 	help_menu->Append(MENU_SHOWHELP, _("View Help"), _("View Nebulosity manual"));
 	help_menu->Append(MENU_CHECKUPDATE, _("Check Web for Updates"), _("Check website for updates"));
+#ifdef NEB_ARM64_PREVIEW
+    const int cameraDiscoveryId = wxWindow::NewControlId();
+    help_menu->Append(cameraDiscoveryId, "Sony / Nikon / Canon camera test", "Find and test a connected USB camera");
+    Bind(wxEVT_MENU, [this](wxCommandEvent&) {
+        wxString captured = ShowMacCameraDiscovery(this);
+        if (!captured.IsEmpty()) GenericLoadFile(captured);
+    }, cameraDiscoveryId);
+#endif
 	
 	// Disable inactive ones
 	
@@ -903,6 +926,11 @@ wxFrame(frame, wxID_ANY, title, pos, size,wxDEFAULT_FRAME_STYLE | wxFULL_REPAINT
 	this->CameraChoices.Add("CCD Labs Q8");
 #endif
 #endif	
+#ifdef NEB_ARM64_PREVIEW
+	CameraChoices.Clear();
+	CameraChoices.Add(_("No camera"));
+	CameraChoices.Add(_("Simulator"));
+#endif
 	Camera_ChoiceBox = new wxChoice(ctrlpanel,CTRL_CAMERACHOICE,wxDefaultPosition,wxDefaultSize, this->CameraChoices );
 	Camera_ChoiceBox->SetSelection(0);
 	CurrentCamera = &NoneCamera;	

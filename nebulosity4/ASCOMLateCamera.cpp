@@ -36,7 +36,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "debayer.h"
 #include "image_math.h"
+// Apple Silicon uses the existing non-Windows ASCOM fallbacks below.
+// Keep the legacy Intel and Windows include paths unchanged.
+#if !defined(__APPLE__) || (!defined(__arm64__) && !defined(__aarch64__))
 #include <wx/msw/ole/oleutils.h>
+#endif
 
 
 Cam_ASCOMLateCameraClass::Cam_ASCOMLateCameraClass() {

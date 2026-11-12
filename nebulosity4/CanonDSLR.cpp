@@ -48,7 +48,11 @@
 #include <wx/stdpaths.h>
 #include <wx/numdlg.h>
 #include <wx/filename.h>
+#if defined(__APPLE__) && defined(__aarch64__)
+#include "arm64/FreeImage_compat.h"
+#else
 #include "FreeImage.h"
+#endif
 #include "preferences.h"
 
 #if defined (__WINDOWS__)

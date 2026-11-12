@@ -1,0 +1,9 @@
+# Native Apple Silicon development dependencies; see dependencies-tested.json.
+brew "python@3.14"
+brew "wxwidgets"
+brew "cfitsio"
+brew "libraw"
+brew "libusb"
+brew "little-cms2"
+brew "libgphoto2"
+brew "gphoto2"

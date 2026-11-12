@@ -1,0 +1,761 @@
+model	capture	trigger	preview	configuration	hardware_tested_in_OpenNebulosity
+Canon Digital IXUS	0	0	0	1	no
+Canon Digital IXUS 100 IS	0	0	0	0	no
+Canon Digital IXUS 110 IS	0	0	0	0	no
+Canon Digital IXUS 120 IS	0	0	0	0	no
+Canon Digital IXUS 130	0	0	0	0	no
+Canon Digital IXUS 132	0	0	0	0	no
+Canon Digital IXUS 180	1	0	1	1	no
+Canon Digital IXUS 185	0	0	0	0	no
+Canon Digital IXUS 255HS	0	0	0	0	no
+Canon Digital IXUS 30 (normal mode)	1	0	1	1	no
+Canon Digital IXUS 300	1	0	1	1	no
+Canon Digital IXUS 300 HS	0	0	0	0	no
+Canon Digital IXUS 330	1	0	1	1	no
+Canon Digital IXUS 40 (PTP mode)	0	0	0	0	no
+Canon Digital IXUS 400 (PTP mode)	1	0	1	1	no
+Canon Digital IXUS 430 (PTP mode)	1	0	1	1	no
+Canon Digital IXUS 50 (PTP mode)	0	0	0	0	no
+Canon Digital IXUS 500 (PTP mode)	1	0	1	1	no
+Canon Digital IXUS 55 (PTP mode)	0	0	0	0	no
+Canon Digital IXUS 60 (PTP mode)	0	0	0	0	no
+Canon Digital IXUS 65 (PTP mode)	0	0	0	0	no
+Canon Digital IXUS 70 (PTP mode)	0	0	0	0	no
+Canon Digital IXUS 700 (PTP mode)	0	0	0	0	no
+Canon Digital IXUS 75 (PTP mode)	0	0	0	0	no
+Canon Digital IXUS 750 (PTP mode)	0	0	0	0	no
+Canon Digital IXUS 80 IS	0	0	0	0	no
+Canon Digital IXUS 800 (PTP mode)	0	0	0	0	no
+Canon Digital IXUS 85 IS	0	0	0	0	no
+Canon Digital IXUS 850 IS (PTP mode)	0	0	0	0	no
+Canon Digital IXUS 860 IS	0	0	0	0	no
+Canon Digital IXUS 90 IS	0	0	0	0	no
+Canon Digital IXUS 900Ti (PTP mode)	0	0	0	0	no
+Canon Digital IXUS 95 IS	0	0	0	0	no
+Canon Digital IXUS 950 IS (PTP mode)	0	0	0	0	no
+Canon Digital IXUS 960 IS (PTP mode)	0	0	0	0	no
+Canon Digital IXUS 970 IS	0	0	0	0	no
+Canon Digital IXUS 980 IS	0	0	0	0	no
+Canon Digital IXUS 990 IS	0	0	0	0	no
+Canon Digital IXUS i (normal mode)	1	0	1	1	no
+Canon Digital IXUS i (PTP mode)	0	0	0	0	no
+Canon Digital IXUS i5 (normal mode)	1	0	1	1	no
+Canon Digital IXUS II (PTP mode)	1	0	1	1	no
+Canon Digital IXUS IIs (PTP mode)	1	0	1	1	no
+Canon Digital IXUS iZ (PTP mode)	0	0	0	0	no
+Canon Digital IXUS v	1	0	1	1	no
+Canon Digital IXUS v2	1	0	1	1	no
+Canon Digital IXUS v3 (normal mode)	1	0	1	1	no
+Canon Digital IXUS v3 (PTP mode)	1	0	1	1	no
+Canon Digital IXUS Wireless (PTP mode)	0	0	0	0	no
+Canon Digital PowerShot SX730HS	1	0	1	1	no
+Canon Digital Rebel XT (normal mode)	1	0	1	1	no
+Canon Digital unknown 3	1	0	1	1	no
+Canon Elura 50 (normal mode)	1	0	1	1	no
+Canon Elura 50 (PTP mode)	0	0	0	0	no
+Canon Elura 65 (PTP mode)	0	0	0	0	no
+Canon EOS (WLAN)	1	0	1	1	no
+Canon EOS 1000D	1	1	1	1	no
+Canon EOS 100D	1	1	1	1	no
+Canon EOS 10D	1	0	1	1	no
+Canon EOS 10D (PTP mode)	0	0	0	0	no
+Canon EOS 1100D	1	1	1	1	no
+Canon EOS 1200D	1	1	1	1	no
+Canon EOS 1300D	1	1	1	1	no
+Canon EOS 1500D	1	1	1	1	no
+Canon EOS 1D C	1	1	1	1	no
+Canon EOS 1D Mark II (PTP mode)	0	0	0	0	no
+Canon EOS 1D Mark III (PTP mode)	1	1	0	1	no
+Canon EOS 1D Mark IV	1	1	1	1	no
+Canon EOS 1D X	1	1	1	1	no
+Canon EOS 1D X MarkII	1	1	1	1	no
+Canon EOS 1D X MarkIII	1	1	1	1	no
+Canon EOS 2000D	1	1	1	1	no
+Canon EOS 200D	1	1	1	1	no
+Canon EOS 20D (normal mode)	1	0	1	1	no
+Canon EOS 20D (PTP mode)	0	0	0	0	no
+Canon EOS 250D	1	1	1	1	no
+Canon EOS 300D (normal mode)	1	0	1	1	no
+Canon EOS 300D (PTP mode)	0	0	0	0	no
+Canon EOS 30D (PTP mode)	1	1	0	1	no
+Canon EOS 350D	0	0	0	0	no
+Canon EOS 350D (normal mode)	1	0	1	1	no
+Canon EOS 350D (PTP mode)	0	0	0	0	no
+Canon EOS 4000D	1	1	1	1	no
+Canon EOS 400D (PTP mode)	1	1	0	1	no
+Canon EOS 40D (PTP mode)	1	1	1	1	no
+Canon EOS 450D (PTP mode)	1	1	1	1	no
+Canon EOS 500D	1	1	1	1	no
+Canon EOS 50D	1	1	1	1	no
+Canon EOS 550D	1	1	1	1	no
+Canon EOS 5D (normal mode)	1	0	1	1	no
+Canon EOS 5D (PTP mode)	0	0	0	0	no
+Canon EOS 5D Mark II	1	1	1	1	no
+Canon EOS 5D Mark III	1	1	1	1	no
+Canon EOS 5D Mark IV	1	1	1	1	no
+Canon EOS 5DS	1	1	1	1	no
+Canon EOS 5DS R	1	1	1	1	no
+Canon EOS 5Rm2	1	1	1	1	no
+Canon EOS 600D	1	1	1	1	no
+Canon EOS 60D	1	1	1	1	no
+Canon EOS 650D	1	1	1	1	no
+Canon EOS 6D	1	1	1	1	no
+Canon EOS 6d Mark II	1	1	1	1	no
+Canon EOS 700D	1	1	1	1	no
+Canon EOS 70D	1	1	1	1	no
+Canon EOS 750D	1	1	1	1	no
+Canon EOS 760D	1	1	1	1	no
+Canon EOS 77D	1	1	1	1	no
+Canon EOS 7D	1	1	1	1	no
+Canon EOS 7D MarkII	1	1	1	1	no
+Canon EOS 800D	1	1	1	1	no
+Canon EOS 80D	1	1	1	1	no
+Canon EOS 850D	1	1	1	1	no
+Canon EOS 90D	1	1	1	1	no
+Canon EOS D30	1	0	1	1	no
+Canon EOS D60	1	0	1	1	no
+Canon EOS Digital Rebel (normal mode)	1	0	1	1	no
+Canon EOS Digital Rebel (PTP mode)	0	0	0	0	no
+Canon EOS Digital Rebel XTi (PTP mode)	1	1	0	1	no
+Canon EOS Kiss Digital (normal mode)	1	0	1	1	no
+Canon EOS Kiss Digital (PTP mode)	0	0	0	0	no
+Canon EOS Kiss Digital N (normal mode)	1	0	1	1	no
+Canon EOS Kiss Digital X (PTP mode)	1	1	0	1	no
+Canon EOS Kiss X2 (PTP mode)	1	1	1	1	no
+Canon EOS Kiss X3	1	1	1	1	no
+Canon EOS M	0	0	0	0	no
+Canon EOS M10	1	1	1	1	no
+Canon EOS M100	1	1	1	1	no
+Canon EOS M2	1	1	1	1	no
+Canon EOS M200	1	1	1	1	no
+Canon EOS M3	1	1	1	1	no
+Canon EOS M5	1	1	1	1	no
+Canon EOS M50	1	1	1	1	no
+Canon EOS M50m2	1	1	1	1	no
+Canon EOS M6	1	1	1	1	no
+Canon EOS M6 Mark II	1	1	1	1	no
+Canon EOS R	1	1	1	1	no
+Canon EOS R1	1	1	1	1	no
+Canon EOS R10	1	1	1	1	no
+Canon EOS R100	1	1	1	1	no
+Canon EOS R3	1	1	1	1	no
+Canon EOS R5	1	1	1	1	no
+Canon EOS R5 C	1	1	1	1	no
+Canon EOS R50	1	1	1	1	no
+Canon EOS R50 V	1	1	1	1	no
+Canon EOS R6	1	1	1	1	no
+Canon EOS R6 Mark III	1	1	1	1	no
+Canon EOS R6m2	1	1	1	1	no
+Canon EOS R7	1	1	1	1	no
+Canon EOS R8	1	1	1	1	no
+Canon EOS Rebel T1i	1	1	1	1	no
+Canon EOS Rebel T6	1	1	1	1	no
+Canon EOS Rebel T7i	1	1	1	1	no
+Canon EOS Rebel T8i	1	1	1	1	no
+Canon EOS Rebel XSi (PTP mode)	1	1	1	1	no
+Canon EOS RP	1	1	1	1	no
+Canon FV M1 (normal mode)	1	0	1	1	no
+Canon IXUS 125HS	0	0	0	0	no
+Canon IXUS 160	0	0	0	0	no
+Canon IXUS 165	0	0	0	0	no
+Canon IXUS 310IS	0	0	0	0	no
+Canon IXY 220 IS	0	0	0	0	no
+Canon IXY 3000 IS	0	0	0	0	no
+Canon IXY DIGITAL	0	0	0	1	no
+Canon IXY DIGITAL 300	1	0	1	1	no
+Canon IXY Digital 40 (normal mode)	1	0	1	1	no
+Canon IXY Digital L2 (normal mode)	1	0	1	1	no
+Canon IXY DV M	1	0	1	1	no
+Canon IXY DV M2 (normal mode)	1	0	1	1	no
+Canon MV630i (normal mode)	1	0	1	1	no
+Canon MV650i (normal mode)	1	0	1	1	no
+Canon MV750i (PTP mode)	0	0	0	0	no
+Canon MVX 10i (normal mode)	1	0	1	1	no
+Canon MVX 3i (normal mode)	1	0	1	1	no
+Canon MVX100i	1	0	1	1	no
+Canon MVX150i (normal mode)	1	0	1	1	no
+Canon MVX25i (normal mode)	1	0	1	1	no
+Canon MVX2i	1	0	1	1	no
+Canon MVX3i (PTP mode)	0	0	0	0	no
+Canon Optura 10	1	0	1	1	no
+Canon Optura 20	1	0	1	1	no
+Canon Optura 20 (normal mode)	1	0	1	1	no
+Canon Optura 200 MC	1	0	1	1	no
+Canon Optura 300 (normal mode)	1	0	1	1	no
+Canon Optura 40 (normal mode)	1	0	1	1	no
+Canon Optura 600 (PTP mode)	0	0	0	0	no
+Canon Optura Xi (normal mode)	1	0	1	1	no
+Canon PowerShot A10	1	0	1	1	no
+Canon PowerShot A100	1	0	1	1	no
+Canon PowerShot A1000 IS	0	0	0	0	no
+Canon PowerShot A1100 IS	0	0	0	0	no
+Canon PowerShot A1300IS	0	0	0	0	no
+Canon PowerShot A1400	0	0	0	0	no
+Canon PowerShot A20	1	0	1	1	no
+Canon PowerShot A200	1	0	1	1	no
+Canon PowerShot A2000 IS	0	0	0	0	no
+Canon PowerShot A2100 IS	0	0	0	0	no
+Canon PowerShot A2200	0	0	0	0	no
+Canon PowerShot A2300IS	0	0	0	0	no
+Canon PowerShot A2400IS	0	0	0	0	no
+Canon PowerShot A2500	0	0	0	0	no
+Canon PowerShot A2600	0	0	0	0	no
+Canon PowerShot A30	1	0	1	1	no
+Canon PowerShot A300 (PTP mode)	1	0	1	1	no
+Canon PowerShot A3000 IS	0	0	0	0	no
+Canon PowerShot A310 (PTP mode)	1	0	1	1	no
+Canon PowerShot A3100 IS	0	0	0	0	no
+Canon PowerShot A3500IS	0	0	0	0	no
+Canon PowerShot A40	1	0	1	1	no
+Canon PowerShot A400 (PTP mode)	1	0	1	1	no
+Canon PowerShot A4000IS	0	0	0	0	no
+Canon PowerShot A410 (PTP mode)	0	0	0	0	no
+Canon PowerShot A420 (PTP mode)	0	0	0	0	no
+Canon PowerShot A430 (PTP mode)	0	0	0	0	no
+Canon PowerShot A450 (PTP mode)	0	0	0	0	no
+Canon PowerShot A460 (PTP mode)	1	0	1	1	no
+Canon PowerShot A470	0	0	0	0	no
+Canon PowerShot A480	0	0	0	0	no
+Canon Powershot A495	0	0	0	0	no
+Canon PowerShot A5	0	0	0	1	no
+Canon PowerShot A5 Zoom	0	0	0	1	no
+Canon PowerShot A50	0	0	0	1	no
+Canon PowerShot A510 (PTP mode)	1	0	1	1	no
+Canon PowerShot A520 (PTP mode)	1	0	1	1	no
+Canon PowerShot A530 (PTP mode)	0	0	0	0	no
+Canon PowerShot A540 (PTP mode)	0	0	0	0	no
+Canon PowerShot A550 (PTP mode)	0	0	0	0	no
+Canon PowerShot A560 (PTP mode)	0	0	0	0	no
+Canon PowerShot A570 IS (PTP mode)	0	0	0	0	no
+Canon PowerShot A580	0	0	0	0	no
+Canon PowerShot A590 IS	0	0	0	0	no
+Canon PowerShot A60 (PTP)	1	0	1	1	no
+Canon PowerShot A610 (PTP mode)	0	0	0	0	no
+Canon PowerShot A620 (PTP mode)	1	0	1	1	no
+Canon PowerShot A630 (PTP mode)	0	0	0	0	no
+Canon PowerShot A640 (PTP mode)	1	0	1	1	no
+Canon PowerShot A650IS (PTP mode)	1	0	1	1	no
+Canon PowerShot A70 (PTP)	1	0	1	1	no
+Canon PowerShot A700 (PTP mode)	0	0	0	0	no
+Canon PowerShot A710 IS (PTP mode)	0	0	0	0	no
+Canon PowerShot A720 IS (PTP mode)	0	0	0	0	no
+Canon PowerShot A75 (PTP mode)	1	0	1	1	no
+Canon PowerShot A80 (PTP)	1	0	1	1	no
+Canon PowerShot A800	0	0	0	0	no
+Canon PowerShot A810	0	0	0	0	no
+Canon PowerShot A85 (PTP mode)	1	0	1	1	no
+Canon PowerShot A95 (PTP mode)	1	0	1	1	no
+Canon PowerShot D10	0	0	0	0	no
+Canon PowerShot ELPH 350 HS	0	0	0	0	no
+Canon PowerShot Elph135	0	0	0	0	no
+Canon PowerShot Elph340HS	0	0	0	0	no
+Canon PowerShot G1	1	0	1	1	no
+Canon PowerShot G1 X	0	0	0	0	no
+Canon PowerShot G10	1	0	1	1	no
+Canon PowerShot G11	0	0	0	0	no
+Canon PowerShot G12	0	0	0	0	no
+Canon PowerShot G15	0	0	0	0	no
+Canon PowerShot G16	0	0	0	0	no
+Canon PowerShot G2	1	0	1	1	no
+Canon PowerShot G3 (normal mode)	1	0	1	1	no
+Canon PowerShot G3 (PTP mode)	1	0	1	1	no
+Canon PowerShot G3 X	1	0	1	1	no
+Canon PowerShot G5 (PTP mode)	1	0	1	1	no
+Canon PowerShot G5X	1	0	1	1	no
+Canon Powershot G6 (PTP mode)	1	0	1	1	no
+Canon PowerShot G7 (PTP mode)	1	0	1	1	no
+Canon PowerShot G7 X	1	0	1	1	no
+Canon PowerShot G7 X Mark II	1	0	1	1	no
+Canon PowerShot G7 X Mark III	1	0	1	1	no
+Canon PowerShot G9 (PTP mode)	1	0	1	1	no
+Canon PowerShot G9 X Mark II	1	0	1	1	no
+Canon PowerShot IXY Digital L (normal mode)	1	0	1	1	no
+Canon PowerShot Pro70	0	0	0	1	no
+Canon PowerShot Pro90 IS	1	0	1	1	no
+Canon PowerShot S1 IS (PTP mode)	1	0	1	1	no
+Canon PowerShot S10	0	0	0	1	no
+Canon PowerShot S100	0	0	0	0	no
+Canon PowerShot S100 (2000)	0	0	0	1	no
+Canon PowerShot S110 (2001)	1	0	1	1	no
+Canon PowerShot S110 (PTP Mode)	0	0	0	0	no
+Canon PowerShot S120	0	0	0	0	no
+Canon PowerShot S2 IS (PTP mode)	1	0	1	1	no
+Canon PowerShot S20	0	0	0	1	no
+Canon PowerShot S200	1	0	1	1	no
+Canon PowerShot S230 (normal mode)	1	0	1	1	no
+Canon PowerShot S230 (PTP mode)	1	0	1	1	no
+Canon PowerShot S3 IS (PTP mode)	1	0	1	1	no
+Canon PowerShot S30	1	0	1	1	no
+Canon PowerShot S300	1	0	1	1	no
+Canon PowerShot S330	1	0	1	1	no
+Canon PowerShot S40	1	0	1	1	no
+Canon PowerShot S400 (PTP mode)	1	0	1	1	no
+Canon PowerShot S410 (PTP mode)	1	0	1	1	no
+Canon PowerShot S45 (normal mode)	1	0	1	1	no
+Canon PowerShot S45 (PTP mode)	0	0	0	0	no
+Canon PowerShot S5 IS (PTP mode)	1	0	1	1	no
+Canon PowerShot S50 (PTP mode)	1	0	1	1	no
+Canon PowerShot S500 (PTP mode)	1	0	1	1	no
+Canon Powershot S60 (PTP mode)	1	0	1	1	no
+Canon Powershot S70 (PTP mode)	1	0	1	1	no
+Canon PowerShot S80 (PTP mode)	1	0	1	1	no
+Canon PowerShot S95	0	0	0	0	no
+Canon PowerShot SD10 Digital ELPH (normal mode)	1	0	1	1	no
+Canon PowerShot SD100 (PTP mode)	1	0	1	1	no
+Canon PowerShot SD1000 (PTP mode)	0	0	0	0	no
+Canon PowerShot SD110 (PTP mode)	1	0	1	1	no
+Canon Powershot SD1100 IS	0	0	0	0	no
+Canon Powershot SD1200 IS	0	0	0	0	no
+Canon PowerShot SD1300 IS	0	0	0	0	no
+Canon PowerShot SD20 (normal mode)	1	0	1	1	no
+Canon PowerShot SD200 (normal mode)	1	0	1	1	no
+Canon PowerShot SD40 (PTP mode)	0	0	0	0	no
+Canon PowerShot SD430 (PTP mode)	0	0	0	0	no
+Canon PowerShot SD450 (PTP mode)	0	0	0	0	no
+Canon PowerShot SD500 (PTP mode)	1	0	1	1	no
+Canon PowerShot SD600 (PTP mode)	0	0	0	0	no
+Canon PowerShot SD630 (PTP mode)	0	0	0	0	no
+Canon PowerShot SD700 (PTP mode)	0	0	0	0	no
+Canon PowerShot SD750 (PTP mode)	0	0	0	0	no
+Canon PowerShot SD770 IS	0	0	0	0	no
+Canon PowerShot SD780 IS	0	0	0	0	no
+Canon Powershot SD790 IS	0	0	0	0	no
+Canon PowerShot SD850 (PTP mode)	0	0	0	0	no
+Canon PowerShot SD880 IS	0	0	0	0	no
+Canon PowerShot SD900 (PTP mode)	0	0	0	0	no
+Canon PowerShot SD940 IS	0	0	0	0	no
+Canon PowerShot SD970 IS	0	0	0	0	no
+Canon PowerShot SD990	0	0	0	0	no
+Canon PowerShot SX10 IS	0	0	0	0	no
+Canon Powershot SX100 IS (PTP mode)	1	0	1	1	no
+Canon PowerShot SX110 IS	1	0	1	1	no
+Canon PowerShot SX120 IS	0	0	0	0	no
+Canon PowerShot SX130 IS	0	0	0	0	no
+Canon PowerShot SX150 IS	0	0	0	0	no
+Canon PowerShot SX160IS	0	0	0	0	no
+Canon PowerShot SX170 IS	0	0	0	0	no
+Canon PowerShot SX20 IS	0	0	0	0	no
+Canon PowerShot SX200 IS	0	0	0	0	no
+Canon PowerShot SX210 IS	0	0	0	0	no
+Canon PowerShot SX220HS	0	0	0	0	no
+Canon PowerShot SX230HS	0	0	0	0	no
+Canon PowerShot SX240HS	0	0	0	0	no
+Canon PowerShot SX260HS	0	0	0	0	no
+Canon PowerShot SX280HS	0	0	0	0	no
+Canon PowerShot SX40HS	0	0	0	0	no
+Canon PowerShot SX500IS	0	0	0	0	no
+Canon PowerShot SX510 HS	0	0	0	0	no
+Canon PowerShot SX520 HS	0	0	0	0	no
+Canon PowerShot SX530 HS	1	0	1	1	no
+Canon PowerShot SX540 HS	1	0	1	1	no
+Canon PowerShot SX600 HS	1	0	1	1	no
+Canon PowerShot SX60HS	0	0	0	0	no
+Canon PowerShot SX70 HS	1	0	1	1	no
+Canon PowerShot SX740 HS	1	0	1	1	no
+Canon PowerShot unknown 1	1	0	1	1	no
+Canon PowerShot unknown 2	1	0	1	1	no
+Canon Rebel T2i	1	1	1	1	no
+Canon Rebel T3	1	1	1	1	no
+Canon Rebel T3i	1	1	1	1	no
+Canon Rebel T4i	1	1	1	1	no
+Canon SX 620HS	1	0	1	1	no
+Canon SX 720HS	1	0	1	1	no
+Canon ZR70MC (normal mode)	1	0	1	1	no
+Nikon 1 (WLAN)	1	0	1	1	no
+Nikon CoolPix 100	1	0	1	1	no
+Nikon Coolpix 2000 (PTP mode)	0	0	0	0	no
+Nikon Coolpix 2100 (PTP mode)	0	0	0	0	no
+Nikon CoolPix 2100 (Sierra Mode)	1	0	1	1	no
+Nikon Coolpix 2200 (PTP mode)	1	0	0	1	no
+Nikon Coolpix 2200v1.1 (PTP mode)	1	0	0	1	no
+Nikon Coolpix 2500 (PTP mode)	0	0	0	0	no
+Nikon CoolPix 2500 (Sierra Mode)	1	0	1	1	no
+Nikon CoolPix 300	1	0	1	1	no
+Nikon Coolpix 3100 (PTP mode)	0	0	0	0	no
+Nikon Coolpix 3200 (PTP mode)	0	0	0	0	no
+Nikon Coolpix 3500 (PTP mode)	0	0	0	0	no
+Nikon CoolPix 3500 (Sierra Mode)	1	0	1	1	no
+Nikon Coolpix 3700 (PTP mode)	1	0	0	1	no
+Nikon Coolpix 4100 (PTP mode)	1	0	0	1	no
+Nikon CoolPix 4100 (Sierra Mode)	1	0	1	1	no
+Nikon Coolpix 4200 (PTP mode)	0	0	0	0	no
+Nikon Coolpix 4300 (PTP mode)	0	0	0	0	no
+Nikon CoolPix 4300 (Sierra Mode)	1	0	1	1	no
+Nikon Coolpix 4500 (PTP mode)	0	0	0	0	no
+Nikon Coolpix 4600 (PTP mode)	0	0	0	0	no
+Nikon Coolpix 4600a (PTP mode)	1	0	0	1	no
+Nikon Coolpix 4800 (PTP mode)	0	0	0	0	no
+Nikon Coolpix 5000 (PTP mode)	1	0	0	1	no
+Nikon Coolpix 5200 (PTP mode)	0	0	0	0	no
+Nikon Coolpix 5400 (PTP mode)	1	0	0	1	no
+Nikon Coolpix 5600 (PTP mode)	1	0	0	1	no
+Nikon Coolpix 5700 (PTP mode)	1	0	0	1	no
+Nikon Coolpix 5900 (PTP mode)	1	0	0	1	no
+Nikon CoolPix 700	1	0	1	1	no
+Nikon Coolpix 7600 (PTP mode)	1	0	0	1	no
+Nikon Coolpix 7900 (PTP mode)	1	0	0	1	no
+Nikon CoolPix 800	1	0	1	1	no
+Nikon Coolpix 8700 (PTP mode)	0	0	0	0	no
+Nikon CoolPix 880	1	0	1	1	no
+Nikon Coolpix 8800 (PTP mode)	1	0	0	1	no
+Nikon Coolpix 885 (PTP mode)	0	0	0	0	no
+Nikon CoolPix 900	1	0	1	1	no
+Nikon CoolPix 900S	1	0	1	1	no
+Nikon CoolPix 910	1	0	1	1	no
+Nikon Coolpix 9400  (PTP mode)	1	0	0	1	no
+Nikon CoolPix 950	1	0	1	1	no
+Nikon CoolPix 950S	1	0	1	1	no
+Nikon CoolPix 990	1	0	1	1	no
+Nikon CoolPix 995	1	0	1	1	no
+Nikon Coolpix A (PTP mode)	1	0	0	1	no
+Nikon Coolpix A900 (PTP mode)	1	0	0	1	no
+Nikon Coolpix AW100 (PTP mode)	1	0	0	1	no
+Nikon Coolpix AW110 (PTP mode)	1	0	0	1	no
+Nikon Coolpix AW130 (PTP mode)	1	0	0	1	no
+Nikon Coolpix B500	1	0	0	1	no
+Nikon Coolpix B700 (PTP mode)	1	0	1	1	no
+Nikon Coolpix L1 (PTP mode)	0	0	0	0	no
+Nikon Coolpix L10 (PTP mode)	0	0	0	0	no
+Nikon Coolpix L100 (PTP mode)	1	0	0	1	no
+Nikon Coolpix L11 (PTP mode)	0	0	0	0	no
+Nikon Coolpix L110 (PTP mode)	1	0	0	1	no
+Nikon Coolpix L12 (PTP mode)	1	0	0	1	no
+Nikon Coolpix L120 (PTP mode)	1	0	0	1	no
+Nikon Coolpix L16 (PTP mode)	1	0	0	1	no
+Nikon Coolpix L19 (PTP mode)	1	0	0	1	no
+Nikon Coolpix L20 (PTP mode)	1	0	0	1	no
+Nikon Coolpix L23 (PTP mode)	1	0	0	1	no
+Nikon Coolpix L27	1	0	0	1	no
+Nikon Coolpix L340	1	0	0	1	no
+Nikon Coolpix L4 (PTP mode)	0	0	0	0	no
+Nikon Coolpix L810  (PTP mode)	1	0	0	1	no
+Nikon Coolpix L820  (PTP mode)	1	0	0	1	no
+Nikon Coolpix L840	1	0	0	1	no
+Nikon Coolpix P1 (PTP mode)	1	0	0	1	no
+Nikon Coolpix P100 (PTP mode)	1	0	0	1	no
+Nikon Coolpix P1000 (PTP mode)	1	0	0	1	no
+Nikon Coolpix P1100 (PTP mode)	1	0	0	1	no
+Nikon Coolpix P2 (PTP mode)	1	0	0	1	no
+Nikon Coolpix P300 (PTP mode)	0	0	0	0	no
+Nikon Coolpix P330 (PTP mode)	1	0	0	1	no
+Nikon Coolpix P4 (PTP mode)	1	0	0	1	no
+Nikon Coolpix P50 (PTP mode)	0	0	0	0	no
+Nikon Coolpix P500 (PTP mode)	1	0	0	1	no
+Nikon Coolpix P5000 (PTP mode)	1	0	0	1	no
+Nikon Coolpix P510 (PTP mode)	0	0	0	0	no
+Nikon Coolpix P5100 (PTP mode)	0	0	0	0	no
+Nikon Coolpix P520 (PTP mode)	0	0	0	0	no
+Nikon Coolpix P60 (PTP mode)	1	0	0	1	no
+Nikon Coolpix P6000 (PTP mode)	1	0	0	1	no
+Nikon Coolpix P7000 (PTP mode)	1	0	0	1	no
+Nikon Coolpix P7100 (PTP mode)	1	0	0	1	no
+Nikon Coolpix P7700 (PTP mode)	0	0	0	0	no
+Nikon Coolpix P7800 (PTP mode)	0	0	0	0	no
+Nikon Coolpix P80 (PTP mode)	1	0	0	1	no
+Nikon Coolpix P80 v1.1 (PTP mode)	1	0	0	1	no
+Nikon Coolpix P90 (PTP mode)	0	0	0	0	no
+Nikon Coolpix P900 (PTP mode)	1	0	0	1	no
+Nikon Coolpix S01	1	0	0	1	no
+Nikon Coolpix S02	1	0	0	1	no
+Nikon Coolpix S2 (PTP mode)	0	0	0	0	no
+Nikon Coolpix S200 (PTP mode)	1	0	0	1	no
+Nikon Coolpix S220 (PTP mode)	1	0	0	1	no
+Nikon Coolpix S225 (PTP mode)	1	0	0	1	no
+Nikon Coolpix S2500 (PTP mode)	1	0	0	1	no
+Nikon Coolpix S2600 (PTP mode)	1	0	0	1	no
+Nikon Coolpix S2700	1	0	0	1	no
+Nikon Coolpix S2900	1	0	0	1	no
+Nikon Coolpix S3000 (PTP mode)	1	0	0	1	no
+Nikon Coolpix S3100 (PTP mode)	1	0	0	1	no
+Nikon Coolpix S3200	1	0	0	1	no
+Nikon Coolpix S3300 (PTP mode)	1	0	0	1	no
+Nikon Coolpix S3500	1	0	0	1	no
+Nikon Coolpix S3600	1	0	0	1	no
+Nikon Coolpix S3700	1	0	0	1	no
+Nikon Coolpix S4 (PTP mode)	0	0	0	0	no
+Nikon Coolpix S4300 (PTP mode)	1	0	0	1	no
+Nikon Coolpix S500 (PTP mode)	0	0	0	0	no
+Nikon Coolpix S5100 (PTP mode)	0	0	0	0	no
+Nikon Coolpix S6 (PTP mode)	0	0	0	0	no
+Nikon Coolpix S60 (PTP mode)	0	0	0	0	no
+Nikon Coolpix S6000 (PTP mode)	0	0	0	0	no
+Nikon Coolpix S620 (PTP mode)	0	0	0	0	no
+Nikon Coolpix S6300 (PTP mode)	1	0	0	1	no
+Nikon Coolpix S6800	1	0	0	1	no
+Nikon Coolpix S7c (PTP mode)	0	0	0	0	no
+Nikon Coolpix S8000 (PTP mode)	0	0	0	0	no
+Nikon Coolpix S8200	0	0	0	0	no
+Nikon Coolpix S9100 (PTP mode)	1	0	0	1	no
+Nikon Coolpix S9500 (PTP mode)	1	0	0	1	no
+Nikon Coolpix S9700	1	0	1	1	no
+Nikon Coolpix SQ (PTP mode)	0	0	0	0	no
+Nikon D100 (Sierra Mode)	1	0	1	1	no
+Nikon D2H SLR (PTP mode)	0	0	0	0	no
+Nikon D2Hs (PTP mode)	1	1	0	1	no
+Nikon D2X SLR (PTP mode)	1	1	0	1	no
+Nikon D3 (PTP mode)	1	1	0	1	no
+Nikon D50 (PTP mode)	1	1	0	1	no
+Nikon DSC D100 (PTP mode)	0	0	0	0	no
+Nikon DSC D200 (PTP mode)	1	1	0	1	no
+Nikon DSC D2Xs (PTP mode)	1	1	0	1	no
+Nikon DSC D300 (PTP mode)	1	1	0	1	no
+Nikon DSC D3000 (PTP mode)	1	1	0	1	no
+Nikon DSC D300s (PTP mode)	1	1	1	1	no
+Nikon DSC D3100 (PTP mode)	1	1	0	1	no
+Nikon DSC D3200	1	1	1	1	no
+Nikon DSC D3300	1	1	1	1	no
+Nikon DSC D3400	1	1	1	1	no
+Nikon DSC D3500	1	1	1	1	no
+Nikon DSC D3s (PTP mode)	1	1	1	1	no
+Nikon DSC D3x (PTP mode)	1	1	1	1	no
+Nikon DSC D4	1	1	1	1	no
+Nikon DSC D40 (PTP mode)	1	1	0	1	no
+Nikon DSC D40x (PTP mode)	1	1	0	1	no
+Nikon DSC D4s	1	1	1	1	no
+Nikon DSC D5	1	1	1	1	no
+Nikon DSC D500	1	1	1	1	no
+Nikon DSC D5000 (PTP mode)	1	1	1	1	no
+Nikon DSC D5100 (PTP mode)	1	1	1	1	no
+Nikon DSC D5200	1	1	1	1	no
+Nikon DSC D5300	1	1	1	1	no
+Nikon DSC D5500	1	1	1	1	no
+Nikon DSC D5600	1	1	1	1	no
+Nikon DSC D6	1	1	1	1	no
+Nikon DSC D60 (PTP mode)	1	1	0	1	no
+Nikon DSC D600	1	1	1	1	no
+Nikon DSC D610	1	1	1	1	no
+Nikon DSC D70 (PTP mode)	1	1	0	1	no
+Nikon DSC D700 (PTP mode)	1	1	1	1	no
+Nikon DSC D7000 (PTP mode)	1	1	1	1	no
+Nikon DSC D70s (PTP mode)	1	1	0	1	no
+Nikon DSC D7100	1	1	1	1	no
+Nikon DSC D7200	1	1	1	1	no
+Nikon DSC D750	1	1	1	1	no
+Nikon DSC D7500	1	1	1	1	no
+Nikon DSC D780	1	1	1	1	no
+Nikon DSC D80 (PTP mode)	1	1	0	1	no
+Nikon DSC D800	1	1	1	1	no
+Nikon DSC D800E	1	1	1	1	no
+Nikon DSC D810	1	1	1	1	no
+Nikon DSC D810A	1	1	1	1	no
+Nikon DSC D850	1	1	1	1	no
+Nikon DSC D90 (PTP mode)	1	1	1	1	no
+Nikon DSC Df	1	1	1	1	no
+Nikon DSLR (WLAN)	1	0	1	1	no
+Nikon J1	1	0	0	1	no
+Nikon J2	1	0	0	1	no
+Nikon J3	1	0	0	1	no
+Nikon J4	1	0	0	1	no
+Nikon J5	1	0	0	1	no
+Nikon KeyMission 170	1	0	0	1	no
+Nikon KeyMission 360 (PTP mode)	1	0	0	1	no
+Nikon P950	1	0	1	1	no
+Nikon S1	1	0	0	1	no
+Nikon S2	1	0	0	1	no
+Nikon V1	1	0	0	1	no
+Nikon V2	1	0	0	1	no
+Nikon V3	1	0	0	1	no
+Nikon Z30	1	1	1	1	no
+Nikon Z5	1	1	1	1	no
+Nikon Z50	1	1	1	1	no
+Nikon Z50_2	1	1	1	1	no
+Nikon Z6	1	1	1	1	no
+Nikon Z6 III	1	1	1	1	no
+Nikon Z6_2	1	1	1	1	no
+Nikon Z7	1	1	1	1	no
+Nikon Z7_2	1	1	1	1	no
+Nikon Z8	1	1	1	1	no
+Nikon Z9	1	1	1	1	no
+Nikon Zf	1	1	1	1	no
+Nikon Zfc	1	1	1	1	no
+Sony A6700 (PC Control)	1	1	1	1	no
+Sony Alpha-A3000	0	0	0	0	no
+Sony Alpha-A5000 (Control)	1	1	0	1	no
+Sony Alpha-A5100 (Control)	1	1	1	1	no
+Sony Alpha-A5100 (MTP)	0	0	0	0	no
+Sony Alpha-A6000 (Control)	1	1	0	1	no
+Sony Alpha-A6000 (MTP)	0	0	0	0	no
+Sony Alpha-A6100 (MTP)	0	0	0	0	no
+Sony Alpha-A6100 (PC Control)	1	1	1	1	no
+Sony Alpha-A6300 (Control)	1	1	1	1	no
+Sony Alpha-A6300 (MTP)	0	0	0	0	no
+Sony Alpha-A6500	0	0	0	0	no
+Sony Alpha-A6500 (Control)	1	1	1	1	no
+Sony Alpha-A6600 (MTP)	0	0	0	0	no
+Sony Alpha-A6600 (PC Control)	1	1	1	1	no
+Sony Alpha-A68 (Control)	1	1	1	1	no
+Sony Alpha-A68 (MTP)	0	0	0	0	no
+Sony Alpha-A7 (Control)	1	1	0	1	no
+Sony Alpha-A7 III (MTP mode)	0	0	0	0	no
+Sony Alpha-A7 III (PC Control)	1	1	1	1	no
+Sony Alpha-A7 IV (MTP mode)	0	0	0	0	no
+Sony Alpha-A7 IV (PC Control)	1	1	1	1	no
+Sony Alpha-A77 M2 (Control)	1	1	1	1	no
+Sony Alpha-A7III (Control)	1	1	1	1	no
+Sony Alpha-A7r (Control)	1	1	0	1	no
+Sony Alpha-A7r II (Control)	1	1	1	1	no
+Sony Alpha-A7R III (MTP mode)	0	0	0	0	no
+Sony Alpha-A7r III (PC Control)	1	1	1	1	no
+Sony Alpha-A7S (Control)	1	1	1	1	no
+Sony Alpha-A7S (MTP)	0	0	0	0	no
+Sony Alpha-A7S II (Control)	1	1	1	1	no
+Sony Alpha-A9 (Control)	1	1	1	1	no
+Sony Alpha-A99 M2 (Control)	1	1	1	1	no
+Sony Alpha-RX10M4 (Control)	1	1	1	1	no
+Sony Alpha-RX1R II (Control)	1	1	1	1	no
+Sony DCR-SR75	0	0	0	0	no
+Sony DSC RX0 II (PC Control)	1	1	1	1	no
+Sony DSC-A100 (PTP mode)	0	0	0	0	no
+Sony DSC-A7r IV (Control)	1	1	1	1	no
+Sony DSC-A7S III (Control)	1	1	1	1	no
+Sony DSC-A7S III (MTP)	0	0	0	0	no
+Sony DSC-A900 (PTP mode)	1	1	0	1	no
+Sony DSC-F707V (PTP mode)	0	0	0	0	no
+Sony DSC-F717 (PTP mode)	0	0	0	0	no
+Sony DSC-F828 (PTP mode)	0	0	0	0	no
+Sony DSC-H1 (PTP mode)	0	0	0	0	no
+Sony DSC-H2 (PTP mode)	0	0	0	0	no
+Sony DSC-H5 (PTP mode)	0	0	0	0	no
+Sony DSC-HX100V (PTP mode)	0	0	0	0	no
+Sony DSC-HX200V (PTP mode)	0	0	0	0	no
+Sony DSC-HX20V (PTP mode)	0	0	0	0	no
+Sony DSC-HX300 (PTP mode)	0	0	0	0	no
+Sony DSC-HX400V (MTP)	0	0	0	0	no
+Sony DSC-HX5V (PTP mode)	0	0	0	0	no
+Sony DSC-HX60V (MTP)	0	0	0	0	no
+Sony DSC-HX80	0	0	0	0	no
+Sony DSC-HX90V (MTP)	0	0	0	0	no
+Sony DSC-N2 (PTP mode)	0	0	0	0	no
+Sony DSC-P10 (PTP mode)	0	0	0	0	no
+Sony DSC-P100 (PTP mode)	0	0	0	0	no
+Sony DSC-P120 (PTP mode)	0	0	0	0	no
+Sony DSC-P200 (PTP mode)	0	0	0	0	no
+Sony DSC-P30 (PTP mode)	0	0	0	0	no
+Sony DSC-P31 (PTP mode)	0	0	0	0	no
+Sony DSC-P32 (PTP mode)	0	0	0	0	no
+Sony DSC-P41 (PTP mode)	0	0	0	0	no
+Sony DSC-P43 (PTP mode)	0	0	0	0	no
+Sony DSC-P5 (PTP mode)	0	0	0	0	no
+Sony DSC-P50 (PTP mode)	0	0	0	0	no
+Sony DSC-P51 (PTP mode)	0	0	0	0	no
+Sony DSC-P52 (PTP mode)	0	0	0	0	no
+Sony DSC-P71 (PTP mode)	0	0	0	0	no
+Sony DSC-P72 (PTP mode)	0	0	0	0	no
+Sony DSC-P73 (PTP mode)	0	0	0	0	no
+Sony DSC-P92 (PTP mode)	0	0	0	0	no
+Sony DSC-P93 (PTP mode)	0	0	0	0	no
+Sony DSC-QX30U	0	0	1	0	no
+Sony DSC-R1 (PTP mode)	0	0	0	0	no
+Sony DSC-RX0 (MTP)	0	0	0	0	no
+Sony DSC-RX0 (PC Control)	1	1	1	1	no
+Sony DSC-RX1 (PTP mode)	0	0	0	0	no
+Sony DSC-RX100 (PTP mode)	0	0	0	0	no
+Sony DSC-RX100M2	0	0	0	0	no
+Sony DSC-RX100M4	1	1	1	1	no
+Sony DSC-RX100M5 (Control)	1	1	0	1	no
+Sony DSC-RX100M5A (MTP)	0	0	0	0	no
+Sony DSC-RX100M5A (PC Control)	1	1	1	1	no
+Sony DSC-RX100M6 (MTP)	0	0	0	0	no
+Sony DSC-RX100M6 (PC Control)	1	1	1	1	no
+Sony DSC-RX100M7 (PC Control)	1	1	1	1	no
+Sony DSC-RX100V (Control)	1	1	0	1	no
+Sony DSC-RX10M3 (Control)	1	1	1	1	no
+Sony DSC-S40 (PTP mode)	0	0	0	0	no
+Sony DSC-S60 (PTP mode)	0	0	0	0	no
+Sony DSC-S730 (PTP mode)	0	0	0	0	no
+Sony DSC-S75 (PTP mode)	0	0	0	0	no
+Sony DSC-S780 (PTP mode)	0	0	0	0	no
+Sony DSC-S85 (PTP mode)	0	0	0	0	no
+Sony DSC-T1 (PTP mode)	0	0	0	0	no
+Sony DSC-T10 (PTP mode)	0	0	0	0	no
+Sony DSC-T3 (PTP mode)	0	0	0	0	no
+Sony DSC-U10 (PTP mode)	0	0	0	0	no
+Sony DSC-U20 (PTP mode)	0	0	0	0	no
+Sony DSC-V1 (PTP mode)	0	0	0	0	no
+Sony DSC-W1 (PTP mode)	0	0	0	0	no
+Sony DSC-W12 (PTP mode)	0	0	0	0	no
+Sony DSC-W130 (PTP mode)	0	0	0	0	no
+Sony DSC-W200 (PTP mode)	0	0	0	0	no
+Sony DSC-W35 (PTP mode)	0	0	0	0	no
+Sony DSC-W510 (PTP mode)	0	0	0	0	no
+Sony DSC-W55 (PTP mode)	0	0	0	0	no
+Sony DSC-WX220 (MTP)	0	0	0	0	no
+Sony DSC-WX350 (MTP)	0	0	0	0	no
+Sony HDR-PJ260VE (PTP mode)	0	0	0	0	no
+Sony HDR-PJ710V (PTP mode)	0	0	0	0	no
+Sony ILCE-1 (Control)	1	1	1	1	no
+Sony ILCE-1M2 (PC Control)	1	1	1	1	no
+Sony ILCE-6400 (PC Control)	1	1	1	1	no
+Sony ILCE-7C (Control)	1	1	1	1	no
+Sony ILCE-7M2 (Control)	1	1	1	1	no
+Sony ILCE-7R M2 (MTP)	0	0	0	0	no
+Sony ILCE-7RM3A (PC Control)	1	1	1	1	no
+Sony ILCE-7RM4A (PC Control)	1	1	1	1	no
+Sony ILCE-7RM5 (PC Control)	1	1	1	1	no
+Sony ILCE-9M3 (Control)	1	1	1	1	no
+Sony ILME-FX3 (PC Control)	1	1	1	1	no
+Sony ILX-LR1 (PC Control)	1	1	1	1	no
+Sony MVC-CD300 (PTP mode)	0	0	0	0	no
+Sony MVC-CD500 (PTP mode)	0	0	0	0	no
+Sony NEX-3N (PTP mode)	0	0	0	0	no
+Sony NEX-5N (PTP mode)	0	0	0	0	no
+Sony NEX-5R	0	0	0	0	no
+Sony NEX-6	0	0	0	0	no
+Sony NEX-7 (PTP mode)	0	0	0	0	no
+Sony NEX5 (PTP mode)	0	0	0	0	no
+Sony NW-A105	0	0	0	0	no
+Sony NW-A306	0	0	0	0	no
+Sony NW-A45 Walkman	0	0	0	0	no
+Sony NW-ZX500	0	0	0	0	no
+Sony NW-ZX700Series	0	0	0	0	no
+Sony NWZ-A726/NWZ-A728/NWZ-A768	0	0	0	0	no
+Sony NWZ-A815/NWZ-A818	0	0	0	0	no
+Sony NWZ-A826/NWZ-A828/NWZ-A829	0	0	0	0	no
+Sony NWZ-A845	0	0	0	0	no
+Sony NWZ-B135	0	0	0	0	no
+Sony NWZ-B142F	0	0	0	0	no
+Sony NWZ-B153F	0	0	0	0	no
+Sony NWZ-B163F	0	0	0	0	no
+Sony NWZ-B173F	0	0	0	0	no
+Sony NWZ-E344/E345	0	0	0	0	no
+Sony NWZ-E354	0	0	0	0	no
+Sony NWZ-E384	0	0	0	0	no
+Sony NWZ-E436F	0	0	0	0	no
+Sony NWZ-E445	0	0	0	0	no
+Sony NWZ-E464	0	0	0	0	no
+Sony NWZ-E474	0	0	0	0	no
+Sony NWZ-S516	0	0	0	0	no
+Sony NWZ-S545	0	0	0	0	no
+Sony NWZ-S615F/NWZ-S616F/NWZ-S618F	0	0	0	0	no
+Sony NWZ-S638F	0	0	0	0	no
+Sony NWZ-S716F	0	0	0	0	no
+Sony NWZ-S739F	0	0	0	0	no
+Sony NWZ-S754	0	0	0	0	no
+Sony NWZ-S765	0	0	0	0	no
+Sony NWZ-W202	0	0	0	0	no
+Sony NWZ-W252B	0	0	0	0	no
+Sony NWZ-X1050B/NWZ-X1060B	0	0	0	0	no
+Sony NWZ-X1051/NWZ-X1061	0	0	0	0	no
+Sony PTP	0	0	0	0	no
+Sony RX100M3 (MTP)	0	0	0	0	no
+Sony SLT-A35 (PTP mode)	0	0	0	0	no
+Sony SLT-A350 (PTP mode)	0	0	0	0	no
+Sony SLT-A37	0	0	0	0	no
+Sony SLT-A55 (PTP mode)	0	0	0	0	no
+Sony SLT-A57	0	0	0	0	no
+Sony SLT-A58	0	0	0	0	no
+Sony SLT-A58 (Control)	1	1	0	1	no
+Sony SLT-A65V (PTP mode)	0	0	0	0	no
+Sony SLT-A77V (PTP mode)	0	0	0	0	no
+Sony SLT-A99v	0	0	0	0	no
+Sony SLT-A99V	0	0	0	0	no
+Sony Sony Tablet P1	0	0	0	0	no
+Sony Sony Tablet S	0	0	0	0	no
+Sony Sony Tablet S1	0	0	0	0	no
+Sony UMC-R10C	0	0	0	0	no
+Sony Xperia Tablet S - SGPT12	0	0	0	0	no
+Sony ZV-1	0	0	0	0	no
+Sony ZV-1 (PC Control)	1	1	1	1	no
+Sony ZV-E10 (Control)	1	1	1	1	no
+Sony ZV-E10 (MTP mode)	0	0	0	0	no
+Sony ZV-E10M2 (MTP mode)	0	0	0	0	no

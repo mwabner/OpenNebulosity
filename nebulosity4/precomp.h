@@ -44,7 +44,9 @@
 #endif
 
 #ifdef __APPLE__
- #ifdef OSX_10_7_BUILD
+ #if defined(NEB_ARM64_PREVIEW)
+  #include <Carbon/Carbon.h>
+ #elif defined(OSX_10_7_BUILD)
   #include </Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Headers/Carbon.h>
  #else
 //#include </System/Library/Frameworks/Carbon.framework/Headers/Carbon.h>

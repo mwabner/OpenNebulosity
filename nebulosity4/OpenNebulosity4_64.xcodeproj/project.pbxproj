@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A64888888888888888888888 /* GPhotoCapture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A64999999999999999999999; };
+		A64666666666666666666666 /* GPhotoDiscovery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A64777777777777777777777; };
+		A64444444444444444444444 /* MacCameraDiscovery.mm in Sources */ = {isa = PBXBuildFile; fileRef = A64555555555555555555555; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A64111111111111111111111 /* LegacyCameras_arm64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A64222222222222222222222; };
+		BF46A2D4D58A46CCBDC96A69 /* DSUSB_arm64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94D87B42C8ED48658F3AF605 /* DSUSB_arm64.cpp */; };
 		58025CA615AD4EBE0051BAC2 /* CCDAD_QHY10.HEX in Resources */ = {isa = PBXBuildFile; fileRef = 58025CA115AD4EBE0051BAC2 /* CCDAD_QHY10.HEX */; };
 		58025CA815AD4EBE0051BAC2 /* CCDAD_QHY8PRO.HEX in Resources */ = {isa = PBXBuildFile; fileRef = 58025CA315AD4EBE0051BAC2 /* CCDAD_QHY8PRO.HEX */; };
 		58025CA915AD4EBE0051BAC2 /* CCDAD_QHY8L.HEX in Resources */ = {isa = PBXBuildFile; fileRef = 58025CA415AD4EBE0051BAC2 /* CCDAD_QHY8L.HEX */; };
@@ -421,6 +426,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A64999999999999999999999 /* GPhotoCapture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arm64/GPhotoCapture.cpp; sourceTree = SOURCE_ROOT; };
+		A64777777777777777777777 /* GPhotoDiscovery.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arm64/GPhotoDiscovery.cpp; sourceTree = SOURCE_ROOT; };
+		A64555555555555555555555 /* MacCameraDiscovery.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = arm64/MacCameraDiscovery.mm; sourceTree = SOURCE_ROOT; };
+		A64222222222222222222222 /* LegacyCameras_arm64.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arm64/LegacyCameras_arm64.cpp; sourceTree = SOURCE_ROOT; };
+		94D87B42C8ED48658F3AF605 /* DSUSB_arm64.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arm64/DSUSB_arm64.cpp; sourceTree = "<group>"; };
 		58025CA115AD4EBE0051BAC2 /* CCDAD_QHY10.HEX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CCDAD_QHY10.HEX; path = extras_intel/CCDAD_QHY10.HEX; sourceTree = "<group>"; };
 		58025CA215AD4EBE0051BAC2 /* CCDAD.HEX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CCDAD.HEX; path = extras_intel/CCDAD.HEX; sourceTree = "<group>"; };
 		58025CA315AD4EBE0051BAC2 /* CCDAD_QHY8PRO.HEX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CCDAD_QHY8PRO.HEX; path = extras_intel/CCDAD_QHY8PRO.HEX; sourceTree = "<group>"; };
@@ -591,7 +601,7 @@
 		58FF99140AA3549C00638F98 /* CanonDSLR.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CanonDSLR.cpp; sourceTree = "<group>"; };
 		58FF99190AA354B200638F98 /* CanonDSLR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanonDSLR.h; sourceTree = "<group>"; };
 		D2E32A5730A5AB790087B944 /* Nebulosity 4 ARM64.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nebulosity 4 ARM64.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2E32A5830A5AB790087B944 /* Nebulosity 4-64 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Nebulosity 4-64 copy-Info.plist"; path = "/Users/mwabner/Developer/OpenNebulosity/nebulosity4/Nebulosity 4-64 copy-Info.plist"; sourceTree = "<absolute>"; };
+		D2E32A5830A5AB790087B944 /* Nebulosity 4-64 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Nebulosity 4-64 copy-Info.plist"; path = "Nebulosity 4-64 copy-Info.plist"; sourceTree = "<group>"; };
 		F487A70609BE2499005A3E96 /* alignment.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = alignment.cpp; sourceTree = "<group>"; };
 		F487A70709BE2499005A3E96 /* alignment.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = alignment.h; sourceTree = "<group>"; };
 		F487A70809BE2499005A3E96 /* camera.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = camera.cpp; sourceTree = "<group>"; };
@@ -664,38 +674,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E32A2030A5AB790087B944 /* libHIDUtilities.a in Frameworks */,
-				D2E32A2130A5AB790087B944 /* libASICamera2.a in Frameworks */,
-				D2E32A2230A5AB790087B944 /* libcfitsio.a in Frameworks */,
-				D2E32A2330A5AB790087B944 /* libDsiDevice.a in Frameworks */,
-				D2E32A2430A5AB790087B944 /* libSXMacLib.a in Frameworks */,
-				D2E32A2530A5AB790087B944 /* libftd2xx.1.2.2.dylib in Frameworks */,
-				D2E32A2630A5AB790087B944 /* libwxpng-3.1.a in Frameworks */,
-				D2E32A2730A5AB790087B944 /* libEFWFilter.a in Frameworks */,
-				D2E32A2830A5AB790087B944 /* libqhy8.a in Frameworks */,
-				D2E32A2930A5AB790087B944 /* libqsiai_7_6_0_64.a in Frameworks */,
-				D2E32A2A30A5AB790087B944 /* OpenGL.framework in Frameworks */,
-				D2E32A2B30A5AB790087B944 /* libQHYCSlib.a in Frameworks */,
-				D2E32A2C30A5AB790087B944 /* libatikcameras.dylib in Frameworks */,
-				D2E32A2D30A5AB790087B944 /* libqhyccd.a in Frameworks */,
-				D2E32A2E30A5AB790087B944 /* libraw.a in Frameworks */,
-				D2E32A2F30A5AB790087B944 /* libfreeimage.a in Frameworks */,
-				D2E32A3030A5AB790087B944 /* libusb-1.0.0.dylib in Frameworks */,
-				D2E32A3130A5AB790087B944 /* IOKit.framework in Frameworks */,
-				D2E32A3230A5AB790087B944 /* libwx_baseu_xml-3.1.a in Frameworks */,
-				D2E32A3330A5AB790087B944 /* libwx_baseu-3.1.a in Frameworks */,
-				D2E32A3430A5AB790087B944 /* libwx_osx_cocoau_adv-3.1.a in Frameworks */,
-				D2E32A3530A5AB790087B944 /* libwx_osx_cocoau_aui-3.1.a in Frameworks */,
-				D2E32A3630A5AB790087B944 /* libwx_osx_cocoau_core-3.1.a in Frameworks */,
-				D2E32A3730A5AB790087B944 /* libwx_osx_cocoau_media-3.1.a in Frameworks */,
-				D2E32A3830A5AB790087B944 /* libwx_osx_cocoau_html-3.1.a in Frameworks */,
-				D2E32A3930A5AB790087B944 /* libwx_osx_cocoau_propgrid-3.1.a in Frameworks */,
-				D2E32A3A30A5AB790087B944 /* libftdi.a in Frameworks */,
-				D2E32A3B30A5AB790087B944 /* libfli.a in Frameworks */,
-				D2E32A3C30A5AB790087B944 /* EDSDK.framework in Frameworks */,
-				D2E32A3D30A5AB790087B944 /* SBIGUDrv.framework in Frameworks */,
-				D2E32A3E30A5AB790087B944 /* libwx_baseu_net-3.1.a in Frameworks */,
-				D2E32A3F30A5AB790087B944 /* liblcms2.a in Frameworks */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1048,6 +1027,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2E32A5330A5AB790087B944 /* Build configuration list for PBXNativeTarget "Nebulosity 4 ARM64" */;
 			buildPhases = (
+				A64333333333333333333333 /* Build ARM64 FreeImage */,
 				D2E329C830A5AB790087B944 /* Resources */,
 				D2E329D530A5AB790087B944 /* Sources */,
 				D2E32A1F30A5AB790087B944 /* Frameworks */,
@@ -1148,6 +1128,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A64333333333333333333333 /* Build ARM64 FreeImage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			inputPaths = ("$(SRCROOT)/arm64/build_freeimage.py", "$(SRCROOT)/../Mac_Libraries/FreeImage_3_18/Makefile.srcs", "$(SRCROOT)/../Mac_Libraries/FreeImage_3_18/Source");
+			name = "Build ARM64 FreeImage";
+			outputPaths = ("$(TARGET_TEMP_DIR)/freeimage/libfreeimage.a");
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python3 \"$SRCROOT/arm64/build_freeimage.py\" \"$TARGET_TEMP_DIR/freeimage\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58BACBD50E70DDAB004ED49A /* Sources */ = {
@@ -1266,7 +1260,6 @@
 				D2E329F330A5AB790087B944 /* reconstruct.cpp in Sources */,
 				D2E329F430A5AB790087B944 /* CanonDSLR.cpp in Sources */,
 				D2E329F530A5AB790087B944 /* preferences.cpp in Sources */,
-				D2E329F630A5AB790087B944 /* DSUSB.cpp in Sources */,
 				D2E329F730A5AB790087B944 /* QHYUniversal.cpp in Sources */,
 				D2E329F830A5AB790087B944 /* MeadeDSI.cpp in Sources */,
 				D2E329F930A5AB790087B944 /* LRGB.cpp in Sources */,
@@ -1307,6 +1300,11 @@
 				D2E32A1C30A5AB790087B944 /* QHY8L.cpp in Sources */,
 				D2E32A1D30A5AB790087B944 /* Opticstar616.cpp in Sources */,
 				D2E32A1E30A5AB790087B944 /* focuser.cpp in Sources */,
+				BF46A2D4D58A46CCBDC96A69 /* DSUSB_arm64.cpp in Sources */,
+				A64111111111111111111111 /* LegacyCameras_arm64.cpp in Sources */,
+				A64444444444444444444444 /* MacCameraDiscovery.mm in Sources */,
+				A64666666666666666666666 /* GPhotoDiscovery.cpp in Sources */,
+				A64888888888888888888888 /* GPhotoCapture.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1747,6 +1745,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = ("ZWOASI.cpp", "artemis.cpp", "CanonDSLR.cpp", "MeadeDSI.cpp", "SXV.cpp", "SBIG.cpp", "Q8HR.cpp", "QHY2Pro.cpp", "qhy268.cpp", "qhy9.cpp", "QHY8Pro.cpp", "QHY10.cpp", "QHY12.cpp", "QHY8L.cpp", "QHYUniversal.cpp", "QSI500.cpp", "FLI.cpp");
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CANONDIR = "$(LIBDIR)/EDSDK_v131231_Macintosh";
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
@@ -1760,6 +1760,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OPENMP_SUPPORT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(LIBDIR)",
 					"$(inherited)",
 					/Library/Frameworks,
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
@@ -1776,42 +1777,29 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					/Users/stark/dev/HID64,
-					/Users/stark/dev/Canon/Current/EDSDK/Header,
-					"$(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1",
-					"$(WXDIR)/include",
-					/Users/stark/dev/FreeImage_3_18/Dist,
-					/Users/stark/dev/cfitsio,
-					"$(LIBRAWDIR)libraw",
-					/usr/local/include,
-					"$(SRCROOT)/cameras/AOSX",
+					"$(inherited)",
+					"/opt/homebrew/include",
+					"/opt/homebrew/include/libraw",
+					"$(CANONDIR)/EDSDK/Header",
+					"/opt/homebrew/include/wx-3.3",
+					"/opt/homebrew/lib/wx/include/osx_cocoa-unicode-3.3",
+					"$(SRCROOT)/../Mac_Libraries/FreeImage_3_18/Dist",
+					"$(SRCROOT)/cameras",
 				);
-				INFOPLIST_FILE = "Nebulosity 4-64 copy-Info.plist";
+				INFOPLIST_FILE = arm64/Info.plist;
 				INSTALL_PATH = /Applications;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib @loader_path/../Frameworks @loader_path/../Resources";
 				LIBDIR = "$(SRCROOT)/../Mac_Libraries";
 				LIBRARY_SEARCH_PATHS = (
-					/Users/stark/dev/cfitsio,
-					"$(PROJECT_DIR)/cameras/AOSX",
-					"$(WXDIR)/Cocoa/lib",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
-					"$(LIBRAWDIR)/lib",
-					/usr/lib,
-					/Users/stark/dev/FreeImage_3_18/Dist,
-					"\"$(SRCROOT)/cameras\"",
-					"$(PROJECT_DIR)/cameras",
-					"$(PROJECT_DIR)/APyTools",
-					"/Users/stark/dev/armadillo-4.600.4",
-					"/Users/stark/dev/armadillo-4.600.4/xcodetest/armadillofuncs/Build/Products/Release",
-					/opt/local/lib,
+					"$(TARGET_TEMP_DIR)/freeimage",
+					"$(inherited)",
+					"/opt/homebrew/lib",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(CANONDIR)/EDSDK/Framework/EDSDK.framework\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/cameras\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(LIBDIR)/HID64/build/Deployment\"";
 				LIBRAWDIR = "$(LIBDIR)/LibRaw-0.20.2";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
 				MARKETING_VERSION = 1.0.0;
 				OTHER_CFLAGS = (
 					"-D__WXMAC__",
@@ -1823,30 +1811,13 @@
 					"-DNEB2",
 					"-DNEB2IL",
 					"-DN64MAC",
+					"-DwxDEBUG_LEVEL=0",
+					"-DWXUSINGDLL",
+					"-DNEB_ARM64_PREVIEW=1",
 				);
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SBIGUDrv,
-					"-framework",
-					IOKit,
-					"-framework",
-					Carbon,
-					"-framework",
-					Cocoa,
-					"-framework",
-					System,
-					"-framework",
-					WebKit,
-					"-framework",
-					AudioToolbox,
-					"-lz",
-					"-lpthread",
-					"-liconv",
-					"-framework",
-					Accelerate,
-				);
+				OTHER_LDFLAGS = "-L/opt/homebrew/lib   -framework IOKit -framework Carbon -framework Cocoa -framework QuartzCore -framework AudioToolbox -framework System -framework OpenGL -lwx_osx_cocoau_aui-3.3 -lwx_osx_cocoau_propgrid-3.3 -lwx_osx_cocoau_xrc-3.3 -lwx_osx_cocoau_html-3.3 -lwx_osx_cocoau_qa-3.3 -lwx_osx_cocoau_core-3.3 -lwx_baseu_xml-3.3 -lwx_baseu_net-3.3 -lwx_baseu-3.3 -lfreeimage -lcfitsio -lraw -lusb-1.0 -llcms2 -framework IOKit -framework Carbon -framework Cocoa -lgphoto2 -lgphoto2_port -framework ImageCaptureCore -framework WebKit -framework AudioToolbox -framework Accelerate -lz -lpthread -liconv";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1854,7 +1825,7 @@
 				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				STRIP_INSTALLED_PRODUCT = NO;
-				USER_HEADER_SEARCH_PATHS = "$(CANONDIR)/EDSDK/Header $(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1 $(WXDIR)/include $(LIBDIR)/cfitsio_3290 $(LIBRAWDIR)/libraw /usr/local/include";
+				USER_HEADER_SEARCH_PATHS = ();
 				VALID_ARCHS = arm64;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -1870,6 +1841,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = ("ZWOASI.cpp", "artemis.cpp", "CanonDSLR.cpp", "MeadeDSI.cpp", "SXV.cpp", "SBIG.cpp", "Q8HR.cpp", "QHY2Pro.cpp", "qhy268.cpp", "qhy9.cpp", "QHY8Pro.cpp", "QHY10.cpp", "QHY12.cpp", "QHY8L.cpp", "QHYUniversal.cpp", "QSI500.cpp", "FLI.cpp");
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CANONDIR = "$(LIBDIR)/EDSDK_v131231_Macintosh";
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
@@ -1884,6 +1857,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OPENMP_SUPPORT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(LIBDIR)",
 					"$(inherited)",
 					/Library/Frameworks,
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
@@ -1899,42 +1873,29 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					/Users/stark/dev/HID64,
-					/Users/stark/dev/Canon/Current/EDSDK/Header,
-					"$(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1",
-					"$(WXDIR)/include",
-					/Users/stark/dev/FreeImage_3_18/Dist,
-					/Users/stark/dev/cfitsio,
-					"$(LIBRAWDIR)libraw",
-					/usr/local/include,
-					"$(SRCROOT)/cameras/AOSX",
+					"$(inherited)",
+					"/opt/homebrew/include",
+					"/opt/homebrew/include/libraw",
+					"$(CANONDIR)/EDSDK/Header",
+					"/opt/homebrew/include/wx-3.3",
+					"/opt/homebrew/lib/wx/include/osx_cocoa-unicode-3.3",
+					"$(SRCROOT)/../Mac_Libraries/FreeImage_3_18/Dist",
+					"$(SRCROOT)/cameras",
 				);
-				INFOPLIST_FILE = "Nebulosity 4-64 copy-Info.plist";
+				INFOPLIST_FILE = arm64/Info.plist;
 				INSTALL_PATH = /Applications;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib @loader_path/../Frameworks @loader_path/../Resources";
 				LIBDIR = "$(SRCROOT)/../Mac_Libraries";
 				LIBRARY_SEARCH_PATHS = (
-					/Users/stark/dev/cfitsio,
-					"$(PROJECT_DIR)/cameras/AOSX",
-					"$(WXDIR)/Cocoa/lib",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
-					"$(LIBRAWDIR)/lib",
-					/usr/lib,
-					/Users/stark/dev/FreeImage_3_18/Dist,
-					"\"$(SRCROOT)/cameras\"",
-					"$(PROJECT_DIR)/cameras",
-					"$(PROJECT_DIR)/APyTools",
-					"/Users/stark/dev/armadillo-4.600.4",
-					"/Users/stark/dev/armadillo-4.600.4/xcodetest/armadillofuncs/Build/Products/Release",
-					/opt/local/lib,
+					"$(TARGET_TEMP_DIR)/freeimage",
+					"$(inherited)",
+					"/opt/homebrew/lib",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(CANONDIR)/EDSDK/Framework/EDSDK.framework\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/cameras\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(LIBDIR)/HID64/build/Deployment\"";
 				LIBRAWDIR = "$(LIBDIR)/LibRaw-0.20.2";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
 				MARKETING_VERSION = 1.0.0;
 				OTHER_CFLAGS = (
 					"-D__WXMAC__",
@@ -1946,30 +1907,13 @@
 					"-DNEB2",
 					"-DNEB2IL",
 					"-DN64MAC",
+					"-DwxDEBUG_LEVEL=0",
+					"-DWXUSINGDLL",
+					"-DNEB_ARM64_PREVIEW=1",
 				);
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SBIGUDrv,
-					"-framework",
-					IOKit,
-					"-framework",
-					Carbon,
-					"-framework",
-					Cocoa,
-					"-framework",
-					System,
-					"-framework",
-					WebKit,
-					"-framework",
-					AudioToolbox,
-					"-lz",
-					"-lpthread",
-					"-liconv",
-					"-framework",
-					Accelerate,
-				);
+				OTHER_LDFLAGS = "-L/opt/homebrew/lib   -framework IOKit -framework Carbon -framework Cocoa -framework QuartzCore -framework AudioToolbox -framework System -framework OpenGL -lwx_osx_cocoau_aui-3.3 -lwx_osx_cocoau_propgrid-3.3 -lwx_osx_cocoau_xrc-3.3 -lwx_osx_cocoau_html-3.3 -lwx_osx_cocoau_qa-3.3 -lwx_osx_cocoau_core-3.3 -lwx_baseu_xml-3.3 -lwx_baseu_net-3.3 -lwx_baseu-3.3 -lfreeimage -lcfitsio -lraw -lusb-1.0 -llcms2 -framework IOKit -framework Carbon -framework Cocoa -lgphoto2 -lgphoto2_port -framework ImageCaptureCore -framework WebKit -framework AudioToolbox -framework Accelerate -lz -lpthread -liconv";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1977,7 +1921,7 @@
 				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				STRIP_INSTALLED_PRODUCT = NO;
-				USER_HEADER_SEARCH_PATHS = "$(CANONDIR)/EDSDK/Header $(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1 $(WXDIR)/include $(LIBDIR)/cfitsio_3290 $(LIBRAWDIR)/libraw /usr/local/include";
+				USER_HEADER_SEARCH_PATHS = ();
 				VALID_ARCHS = arm64;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -1993,6 +1937,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = ("ZWOASI.cpp", "artemis.cpp", "CanonDSLR.cpp", "MeadeDSI.cpp", "SXV.cpp", "SBIG.cpp", "Q8HR.cpp", "QHY2Pro.cpp", "qhy268.cpp", "qhy9.cpp", "QHY8Pro.cpp", "QHY10.cpp", "QHY12.cpp", "QHY8L.cpp", "QHYUniversal.cpp", "QSI500.cpp", "FLI.cpp");
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CANONDIR = "$(LIBDIR)/EDSDK_v131231_Macintosh";
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
@@ -2005,6 +1951,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OPENMP_SUPPORT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(LIBDIR)",
 					"$(inherited)",
 					/Library/Frameworks,
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
@@ -2020,42 +1967,29 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					/Users/stark/dev/HID64,
-					/Users/stark/dev/Canon/Current/EDSDK/Header,
-					"$(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1",
-					"$(WXDIR)/include",
-					/Users/stark/dev/FreeImage_3_18/Dist,
-					/Users/stark/dev/cfitsio,
-					"$(LIBRAWDIR)libraw",
-					/usr/local/include,
-					"$(SRCROOT)/cameras/AOSX",
+					"$(inherited)",
+					"/opt/homebrew/include",
+					"/opt/homebrew/include/libraw",
+					"$(CANONDIR)/EDSDK/Header",
+					"/opt/homebrew/include/wx-3.3",
+					"/opt/homebrew/lib/wx/include/osx_cocoa-unicode-3.3",
+					"$(SRCROOT)/../Mac_Libraries/FreeImage_3_18/Dist",
+					"$(SRCROOT)/cameras",
 				);
-				INFOPLIST_FILE = "Nebulosity 4-64 copy-Info.plist";
+				INFOPLIST_FILE = arm64/Info.plist;
 				INSTALL_PATH = /Applications;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib @loader_path/../Frameworks @loader_path/../Resources";
 				LIBDIR = "$(SRCROOT)/../Mac_Libraries";
 				LIBRARY_SEARCH_PATHS = (
-					/Users/stark/dev/cfitsio,
-					"$(PROJECT_DIR)/cameras/AOSX",
-					"$(WXDIR)/Cocoa/lib",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
-					"$(LIBRAWDIR)/lib",
-					/usr/lib,
-					/Users/stark/dev/FreeImage_3_18/Dist,
-					"\"$(SRCROOT)/cameras\"",
-					"$(PROJECT_DIR)/cameras",
-					"$(PROJECT_DIR)/APyTools",
-					"/Users/stark/dev/armadillo-4.600.4",
-					"/Users/stark/dev/armadillo-4.600.4/xcodetest/armadillofuncs/Build/Products/Release",
-					/opt/local/lib,
+					"$(TARGET_TEMP_DIR)/freeimage",
+					"$(inherited)",
+					"/opt/homebrew/lib",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(CANONDIR)/EDSDK/Framework/EDSDK.framework\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/cameras\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(LIBDIR)/HID64/build/Deployment\"";
 				LIBRAWDIR = "$(LIBDIR)/LibRaw-0.20.2";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
 				MARKETING_VERSION = 1.0.0;
 				OTHER_CFLAGS = (
 					"-D__WXMAC__",
@@ -2067,30 +2001,13 @@
 					"-DNEB2",
 					"-DNEB2IL",
 					"-DN64MAC",
+					"-DwxDEBUG_LEVEL=0",
+					"-DWXUSINGDLL",
+					"-DNEB_ARM64_PREVIEW=1",
 				);
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SBIGUDrv,
-					"-framework",
-					IOKit,
-					"-framework",
-					Carbon,
-					"-framework",
-					Cocoa,
-					"-framework",
-					System,
-					"-framework",
-					WebKit,
-					"-framework",
-					AudioToolbox,
-					"-lz",
-					"-lpthread",
-					"-liconv",
-					"-framework",
-					Accelerate,
-				);
+				OTHER_LDFLAGS = "-L/opt/homebrew/lib   -framework IOKit -framework Carbon -framework Cocoa -framework QuartzCore -framework AudioToolbox -framework System -framework OpenGL -lwx_osx_cocoau_aui-3.3 -lwx_osx_cocoau_propgrid-3.3 -lwx_osx_cocoau_xrc-3.3 -lwx_osx_cocoau_html-3.3 -lwx_osx_cocoau_qa-3.3 -lwx_osx_cocoau_core-3.3 -lwx_baseu_xml-3.3 -lwx_baseu_net-3.3 -lwx_baseu-3.3 -lfreeimage -lcfitsio -lraw -lusb-1.0 -llcms2 -framework IOKit -framework Carbon -framework Cocoa -lgphoto2 -lgphoto2_port -framework ImageCaptureCore -framework WebKit -framework AudioToolbox -framework Accelerate -lz -lpthread -liconv";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -2098,7 +2015,7 @@
 				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				STRIP_INSTALLED_PRODUCT = NO;
-				USER_HEADER_SEARCH_PATHS = "$(CANONDIR)/EDSDK/Header $(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1 $(WXDIR)/include $(LIBDIR)/cfitsio_3290 $(LIBRAWDIR)/libraw /usr/local/include";
+				USER_HEADER_SEARCH_PATHS = ();
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",

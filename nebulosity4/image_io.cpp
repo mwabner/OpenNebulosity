@@ -34,7 +34,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "Nebulosity.h"
 #include "image_math.h"
 #include "file_tools.h"
+#if defined(__APPLE__) && defined(__aarch64__)
+#include "arm64/FreeImage_compat.h"
+#else
 #include "FreeImage.h"
+#endif
 #include "wx/image.h"
 #include <wx/numdlg.h>
 #include <wx/filedlg.h>
@@ -195,7 +199,12 @@ void MyFrame::OnSaveBMPFile(wxCommandEvent &event) {
 	
 	if (fname.IsEmpty()) return;  // Check for canceled dialog
 
+#if defined(__APPLE__) && (defined(__arm64__) || defined(__aarch64__))
+	// Convert the pixels rather than changing bitmap depth metadata.
+	*DisplayedBitmap = wxBitmap(DisplayedBitmap->ConvertToImage(), 24);
+#else
 	DisplayedBitmap->SetDepth(24);
+#endif
 	if ( (event.GetId() == MENU_SAVE_BMPFILE) || (event.GetId() == wxID_FILE2) ){
 		if (!fname.EndsWith(_T(".bmp"))) fname = fname + _T(".bmp");		
 		retval = DisplayedBitmap->SaveFile(fname, wxBITMAP_TYPE_BMP);

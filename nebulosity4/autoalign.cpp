@@ -44,7 +44,11 @@
 #include <wx/stdpaths.h>
 #include "wx/textfile.h"
 #include "setup_tools.h"
+#if defined(__APPLE__) && defined(__aarch64__)
+#include "arm64/FreeImage_compat.h"
+#else
 #include "FreeImage.h"
+#endif
 #include <wx/filedlg.h>
 #include <wx/dir.h>
 #include <wx/progdlg.h>

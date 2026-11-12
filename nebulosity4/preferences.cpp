@@ -36,6 +36,9 @@
  *
  */
 #include "precomp.h"
+#ifdef NEB_ARM64_PREVIEW
+#include "arm64/Language_compat.h"
+#endif
 
 #include "Nebulosity.h"
 #include "camera.h"
@@ -607,7 +610,11 @@ bool SavePreferences() {
 	wxConfig *config = new wxConfig("Nebulosity4");
 	wxString TempStr;
 	config->SetPath("/Preferences");
+#ifdef NEB_ARM64_PREVIEW
+	WriteARM64Language(*config, Pref.Language);
+#else
 	config->Write("Language",(long) Pref.Language);
+#endif
 	config->Write("Compressed",(long) Exp_SaveCompressed);
 	//config->Write("MsecTime",(long) Pref.MsecTime);
 	config->Write("FFBin2x2",(long) Pref.FF2x2);

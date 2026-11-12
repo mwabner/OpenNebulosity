@@ -40,7 +40,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <wx/textfile.h>
 #include <wx/numdlg.h>
 #include <wx/stdpaths.h>
+#if defined(__APPLE__) && defined(__aarch64__)
+#include "arm64/FreeImage_compat.h"
+#else
 #include "FreeImage.h"
+#endif
 #include "setup_tools.h"
 
 //#define ROUND(x) (int) floor(x + 0.5)

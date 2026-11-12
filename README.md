@@ -1,31 +1,72 @@
-# OpenNebulosity
-Astrophotography capture and processing software from Stark Labs
+# OpenNebulosity 4 — Apple Silicon development
 
-## Building environments
-At the moment, I'm trying to package as much in the way of external libraries as I can and have the projects reference these libraries.  We'll see in the end how well this works, but for now, that's how I'm setting this up.  In here, you'll have then my current code, project files, libraries, etc. for both Windows and macOS.
+Development fork of [Craig Stark's OpenNebulosity](https://github.com/celstark/OpenNebulosity), an astrophotography capture and image-processing application originally developed at Stark Labs.
 
-The build machines I've been using have been kept "old" intentionally as, so often, machines used to capture images are a bit older and out of date.  To help ensure that everything works, I kept the build machines back and then tested on newer OS variants.  In addition, this helped keep things working to build with older libraries that I don't have access to source code from.  (As a quick example, consider the case of 32-bit vs 64-bit code.  If I only have a camera library in 32-bit and can't get a 64-bit one, Nebulosity can't be built as a 64-bit app and still support that camera.)
+**Active development branch: [`feature/macos-arm64`](https://github.com/mwabner/OpenNebulosity/tree/feature/macos-arm64).** This is an experimental native macOS ARM64 port, not a production release or a claim of complete camera compatibility. The historical Intel and Windows sources and targets remain available; they are not covered by the current ARM64 validation.
 
-To help folks and, at least initially, make sure we're working with a known-good setup, I'm bundling required bits from the libraries I'm using (by and large) for both Mac and Windows.  
+## Current status
 
-Note, the `.gitignore` is heavily populated here, but this is already likely vestigial.  I've taken to having only stripped down versions of the required library folders for Mac and Windows included here, negating much of what's in `.gitignore`.
+| Area | Status |
+|---|---|
+| Native ARM64 application | Development build and application launch verified on an M1 Mac |
+| FITS processing | Open, rotate and save tested; synthetic FITS round-trip checked |
+| Bitmap export | BMP and JPEG export tested |
+| Simulator | Connection and 800 × 600 preview acquisition tested |
+| Sony Alpha 6000 | USB recognition, JPEG and ARW capture/download verified using gphoto2 |
+| Sony ARW → FITS | App import/export verified against all 24,240,576 decoded sensor pixels: zero differences |
+| New USB camera dialog | Discovery, persistent-session capture/download code and error tests implemented; positive end-to-end capture from its new button still needs a hardware test |
+| Nikon and Canon | Shared libgphoto2 adapter prepared; no physical camera validation yet |
+| Bulb, capture series and focus | Not yet connected to the new camera adapter; Alpha 6000 live view is not advertised by its installed driver |
+| Legacy camera SDKs | Intel-only implementations are replaced or disabled in the ARM64 preview |
 
-### Mac
-My Mac setup at time of forking this off (July 2021) was running 10.14.6 (Mojave) and Xcode 11.3.1.  Neb was set to build as 64-bit here as macOS forced all apps to go this way to run on current versions from 10.15 (Catalina) onward.  This led to a number of cameras getting dropped.
+The camera test is available under **Help → Sony / Nikon / Canon camera test**. It uses the exposure and file format selected on the camera. The normal camera selector still offers the simulator; it does not yet drive this experimental adapter.
 
-#### Setup and configuration
-In theory, I've packaged all libraries in the Mac_Libraries folder that you'll need to compile things apart from some that come with XCode (OpenGL.framework and IOKit.framework). I use the XCode GUI, so it'll be good to start there.  Just make sure your Frameworks and Libs section in are pointing to the appropriate locations for these. For the build to work, you'll need to update your code signing as well (Targets, Build settings).
+## Build on another Apple Silicon Mac
 
-In the Targets, Build Settings at the end, you'll find a User-Defined section that has a number of variables in here.  The key first one, if you move things, is `LIBDIR`, which points to the Mac_Libraries folder.  That's used to define the others.  If you update wxWidgets or any other libraries, you'll need to update their definitions here, but keep them all referenced to `$(LIBDIR)`.
+The currently tested configuration uses **macOS 27.0.1, Xcode 27.2 and native ARM64 Homebrew**. The application's current deployment target is macOS 27.0. Full Xcode with a macOS 27 SDK or newer is required; Command Line Tools alone are insufficient. Older macOS deployment and standalone distribution are separate work items.
 
-### Windows
-My Windows setup was actually in a VM on my development Mac.  Windows 10 running (don't laugh) Visual Studio 2010 Professional (yes, it's very old).  At one point, though, I'd setup another machine and had it happily compiling with VC Express / Community 2019.  As Windows is happy running 32 and 64 bit apps side by side, we're setup to run at 32 bits so that we can hold onto some old cameras.
+```sh
+git clone --branch feature/macos-arm64 https://github.com/mwabner/OpenNebulosity.git
+cd OpenNebulosity
+brew bundle --file nebulosity4/arm64/Brewfile
+python3 nebulosity4/arm64/build_arm64.py --check
+python3 nebulosity4/arm64/build_arm64.py
+python3 nebulosity4/arm64/test_arm64.py
+open "build/arm64/products/Development/Nebulosity 4 ARM64.app"
+```
 
-#### Setup and configuration
-The build setup (Properties page for Nebulosity4) makes a lot of use of `$(SolutionDir)` to provide the path to the libraries and include folders.  Where possible, I've set this up so that both Debug and Release targets share common info (All configurations).
+Run from a native ARM64 terminal, not Rosetta. Select full Xcode in Xcode's settings or with `xcode-select` before building. The build script reads the installed `wx-config`, derives headers/linker flags and validates the native dependency libraries. It builds only `Nebulosity 4 ARM64`, without requiring a signing certificate, and leaves the Intel target untouched. Xcode's user-script protection remains enabled.
 
-I've not packaged ASCOM and its dev bits in here.  You'll need to have that installed and setup in VC to be able to do the building as we tap into it for ASCOM cameras, filter wheels etc.
+FreeImage is built automatically from the bundled source into Xcode's temporary build directory. Its old embedded LibRaw is excluded to avoid symbol collisions with the current RAW decoder. No separate proprietary camera SDK download is needed for the tested Alpha 6000 route; some legacy headers are still referenced from the bundled libraries.
 
-Also, on your first build and attempt to launch, it'll complain about missing DLLs.  Just copy the DLLs from the Win_Installer folder into your Debug or Release build folder so that it can find them on launch.
+See [the development guide](docs/DEVELOPMENT.md), [tested dependency versions](nebulosity4/arm64/dependencies-tested.json) and [camera validation details](nebulosity4/arm64/CAMERA_SUPPORT.md).
 
-One thing to know is that the webcam based setups here rely on an old video library that integrates with wxWidgets.  When there's a new build of wxWidgets that moves beyond small changes, we need to re-compile that library and put it into 
+## Development components
+
+| Component | Role |
+|---|---|
+| C++ and wxWidgets / Cocoa | Application, image processing and desktop interface |
+| Objective-C++ / ImageCaptureCore | Native macOS camera discovery and reported PTP capabilities |
+| libgphoto2 | Shared USB discovery and experimental Sony/Nikon/Canon capture sessions |
+| LibRaw | Current DSLR/mirrorless RAW decoding, including tested Sony ARW |
+| FreeImage 3.18 bundled sources | Bitmap/image codecs, compiled separately for ARM64 |
+| CFITSIO | FITS reading and writing |
+| Little CMS / libusb | Color-management and USB dependencies |
+| Python 3 / Xcode / Clang | Build environment checks, isolated dependency build and regression-test commands |
+
+The [driver capability snapshot](nebulosity4/arm64/driver-model-support.tsv) lists current and historical driver entries and USB modes. It is not a list of cameras proven to work in OpenNebulosity. Future models and firmware need per-function checks rather than assuming that detection guarantees capture, RAW transfer or live view.
+
+## Next development work
+
+1. Validate connection, capture, cancellation and disconnect from the new dialog with the Alpha 6000.
+2. Integrate the adapter into the normal capture controls and series workflow.
+3. Add bounded Bulb exposures and verify exposure/ISO metadata and RAW behavior.
+4. Test representative Nikon and Canon models and cover differences in driver capabilities.
+5. Separate legacy backends from the shared processing core before considering target removal.
+6. Package ARM64 runtime dependencies and address signing/notarization for distribution.
+
+Generated builds, personal Xcode state and private camera images do not belong in commits. Hardware-independent tests can run without a camera; the optional ARW/FITS regression uses locally supplied test files. Homebrew's Brewfile is a setup recipe, not a permanent version lock; the recorded versions document the verified environment.
+
+## Legacy reference and attribution
+
+This fork retains the upstream history and bundled library notices. [The original build-environment notes](docs/legacy-build-environments.md) describe the historical macOS Intel and Windows setups. Retaining those files does not mean that their old SDKs or toolchains work on current systems. Intel/Windows builds have not been retested during this port.

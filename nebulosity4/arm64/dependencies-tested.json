@@ -1,0 +1,34 @@
+{
+  "recorded_on": "2026-11-12",
+  "architecture": "arm64",
+  "macos": "27.0.1",
+  "xcode": "27.2 (27B52)",
+  "application_deployment_target": "27.0",
+  "homebrew_versions": {
+    "cfitsio": [
+      "4.7.0"
+    ],
+    "gphoto2": [
+      "2.5.32"
+    ],
+    "libgphoto2": [
+      "2.5.34"
+    ],
+    "libraw": [
+      "0.22.3"
+    ],
+    "libusb": [
+      "1.0.30"
+    ],
+    "little-cms2": [
+      "2.19.1"
+    ],
+    "python@3.14": [
+      "3.14.7"
+    ],
+    "wxwidgets": [
+      "3.3.4"
+    ]
+  },
+  "note": "Verified environment snapshot; Brewfile is not a permanent version lock."
+}

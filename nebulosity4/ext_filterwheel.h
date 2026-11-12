@@ -69,8 +69,12 @@ public:
  #define EFW_ASCOM
  #define EFW_FLI
 #else
- #define EFW_SX
+ #if !defined(__aarch64__) && !defined(__arm64__)
+  #define EFW_SX
+ #endif
+ #if !defined(NEB_ARM64_PREVIEW)
  #define EFW_ZWO
+ #endif
 #endif
 
 #ifdef EFW_ASCOM
