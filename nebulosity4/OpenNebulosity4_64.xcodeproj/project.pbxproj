@@ -136,6 +136,135 @@
 		58FED1880FCF4D1B00F18967 /* QHY8Pro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58FED1860FCF4D1B00F18967 /* QHY8Pro.cpp */; };
 		58FEEAA425B6642D00532916 /* libraw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 582ED04114959180002F8602 /* libraw.a */; };
 		58FF0B4A20558D3200BF45F2 /* QHYUniversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58FF0B4920558D3200BF45F2 /* QHYUniversal.cpp */; };
+		D2E329C930A5AB790087B944 /* WarpImageMultiTransform in Resources */ = {isa = PBXBuildFile; fileRef = 58A6FBCF116453C600C522C4 /* WarpImageMultiTransform */; };
+		D2E329CA30A5AB790087B944 /* ConvertImagePixelType in Resources */ = {isa = PBXBuildFile; fileRef = 58A6FBD0116453C600C522C4 /* ConvertImagePixelType */; };
+		D2E329CB30A5AB790087B944 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58A766C21AA4D0A50038029E /* Images.xcassets */; };
+		D2E329CC30A5AB790087B944 /* ANTS in Resources */ = {isa = PBXBuildFile; fileRef = 58A6FBD1116453C600C522C4 /* ANTS */; };
+		D2E329CD30A5AB790087B944 /* Neb4.icns in Resources */ = {isa = PBXBuildFile; fileRef = 58A766C41AA4D0E60038029E /* Neb4.icns */; };
+		D2E329CE30A5AB790087B944 /* fxload-osx in Resources */ = {isa = PBXBuildFile; fileRef = 589BD0E015870D4600DC0F0C /* fxload-osx */; };
+		D2E329CF30A5AB790087B944 /* CCDAD_QHY10.HEX in Resources */ = {isa = PBXBuildFile; fileRef = 58025CA115AD4EBE0051BAC2 /* CCDAD_QHY10.HEX */; };
+		D2E329D030A5AB790087B944 /* CCDAD_QHY8PRO.HEX in Resources */ = {isa = PBXBuildFile; fileRef = 58025CA315AD4EBE0051BAC2 /* CCDAD_QHY8PRO.HEX */; };
+		D2E329D130A5AB790087B944 /* CCDAD_QHY8L.HEX in Resources */ = {isa = PBXBuildFile; fileRef = 58025CA415AD4EBE0051BAC2 /* CCDAD_QHY8L.HEX */; };
+		D2E329D230A5AB790087B944 /* APyTools in Resources */ = {isa = PBXBuildFile; fileRef = 58A346631A82F9C600AAFBC6 /* APyTools */; };
+		D2E329D330A5AB790087B944 /* CCDAD_QHY12.HEX in Resources */ = {isa = PBXBuildFile; fileRef = 58025CA515AD4EBE0051BAC2 /* CCDAD_QHY12.HEX */; };
+		D2E329D430A5AB790087B944 /* CCDAD_QHY9.HEX in Resources */ = {isa = PBXBuildFile; fileRef = 581044EA15ADF97E00FF78C9 /* CCDAD_QHY9.HEX */; };
+		D2E329D630A5AB790087B944 /* ZWOASI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58DF43D11B9B6CC1006CFD71 /* ZWOASI.cpp */; };
+		D2E329D730A5AB790087B944 /* alignment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A70609BE2499005A3E96 /* alignment.cpp */; };
+		D2E329D830A5AB790087B944 /* Starfish.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5874C7C623E650B10045FF41 /* Starfish.cpp */; };
+		D2E329D930A5AB790087B944 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A70809BE2499005A3E96 /* camera.cpp */; };
+		D2E329DA30A5AB790087B944 /* clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A70A09BE2499005A3E96 /* clock.cpp */; };
+		D2E329DB30A5AB790087B944 /* debayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A70C09BE2499005A3E96 /* debayer.cpp */; };
+		D2E329DC30A5AB790087B944 /* display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A70E09BE2499005A3E96 /* display.cpp */; };
+		D2E329DD30A5AB790087B944 /* dummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A70F09BE2499005A3E96 /* dummy.cpp */; };
+		D2E329DE30A5AB790087B944 /* file_tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A71109BE2499005A3E96 /* file_tools.cpp */; };
+		D2E329DF30A5AB790087B944 /* image_io.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A71309BE2499005A3E96 /* image_io.cpp */; };
+		D2E329E030A5AB790087B944 /* image_manip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A71409BE2499005A3E96 /* image_manip.cpp */; };
+		D2E329E130A5AB790087B944 /* image_math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A71509BE2499005A3E96 /* image_math.cpp */; };
+		D2E329E230A5AB790087B944 /* main_classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A71709BE2499005A3E96 /* main_classes.cpp */; };
+		D2E329E330A5AB790087B944 /* Nebulosity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A71A09BE2499005A3E96 /* Nebulosity.cpp */; };
+		D2E329E430A5AB790087B944 /* osxfuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A71C09BE2499005A3E96 /* osxfuncs.cpp */; };
+		D2E329E530A5AB790087B944 /* preprocess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A71E09BE2499005A3E96 /* preprocess.cpp */; };
+		D2E329E630A5AB790087B944 /* scripts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F487A72009BE2499005A3E96 /* scripts.cpp */; };
+		D2E329E730A5AB790087B944 /* APyTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 581C41AA1A8527990017C023 /* APyTools.cpp */; };
+		D2E329E830A5AB790087B944 /* manual_color_camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58CB23D80A02AD2E00F24639 /* manual_color_camera.cpp */; };
+		D2E329E930A5AB790087B944 /* sac10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58EE69600A403DAC002BCD28 /* sac10.cpp */; };
+		D2E329EA30A5AB790087B944 /* SAC78.CPP in Sources */ = {isa = PBXBuildFile; fileRef = 58EE69620A403DAC002BCD28 /* SAC78.CPP */; };
+		D2E329EB30A5AB790087B944 /* simulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58EE69650A403DAC002BCD28 /* simulator.cpp */; };
+		D2E329EC30A5AB790087B944 /* Starshoot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58EE69670A403DAC002BCD28 /* Starshoot.cpp */; };
+		D2E329ED30A5AB790087B944 /* CIM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5806E19D0A72771A00E85E30 /* CIM.cpp */; };
+		D2E329EE30A5AB790087B944 /* CamToolDialogs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 586E61AD1AAE4CF50009F22C /* CamToolDialogs.cpp */; };
+		D2E329EF30A5AB790087B944 /* drizzle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5806E19F0A72772000E85E30 /* drizzle.cpp */; };
+		D2E329F030A5AB790087B944 /* artemis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5808EE3F0A7BED1600CB1D62 /* artemis.cpp */; };
+		D2E329F130A5AB790087B944 /* quality.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58D808060A9C9CB90056433F /* quality.cpp */; };
+		D2E329F230A5AB790087B944 /* canon_cr2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5867497C0A9DEEEA003D4F5F /* canon_cr2.cpp */; };
+		D2E329F330A5AB790087B944 /* reconstruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58FF990C0AA3535400638F98 /* reconstruct.cpp */; };
+		D2E329F430A5AB790087B944 /* CanonDSLR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58FF99140AA3549C00638F98 /* CanonDSLR.cpp */; };
+		D2E329F530A5AB790087B944 /* preferences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 585C82ED0ABB0D0A0095F5FA /* preferences.cpp */; };
+		D2E329F630A5AB790087B944 /* DSUSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5881D1A60ADFBDE10071BE95 /* DSUSB.cpp */; };
+		D2E329F730A5AB790087B944 /* QHYUniversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58FF0B4920558D3200BF45F2 /* QHYUniversal.cpp */; };
+		D2E329F830A5AB790087B944 /* MeadeDSI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 589EB7F80B0119AA009CAA3B /* MeadeDSI.cpp */; };
+		D2E329F930A5AB790087B944 /* LRGB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 580D903A0B33968E00018760 /* LRGB.cpp */; };
+		D2E329FA30A5AB790087B944 /* WDM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58BB01C21879D8C80007A1EF /* WDM.cpp */; };
+		D2E329FB30A5AB790087B944 /* preview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 585277320B60641B000EC3A9 /* preview.cpp */; };
+		D2E329FC30A5AB790087B944 /* geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5821929C0B6682D500E52BC7 /* geometry.cpp */; };
+		D2E329FD30A5AB790087B944 /* SXV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5835AE240B6CEE84006EC993 /* SXV.cpp */; };
+		D2E329FE30A5AB790087B944 /* SBIG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 586B3DC90B8F3F7D004B0C55 /* SBIG.cpp */; };
+		D2E329FF30A5AB790087B944 /* focus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 581A4E180B9E4DC3002C95A7 /* focus.cpp */; };
+		D2E32A0030A5AB790087B944 /* Q8HR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 581C83130BAF1A9F0051AACE /* Q8HR.cpp */; };
+		D2E32A0130A5AB790087B944 /* Opticstar335.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5807AD9F0C0BC70C0036C117 /* Opticstar335.cpp */; };
+		D2E32A0230A5AB790087B944 /* qhy268.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58242BD00C35D9D2001F7E4A /* qhy268.cpp */; };
+		D2E32A0330A5AB790087B944 /* greyc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 580AD7E50CB7F454004504CC /* greyc.cpp */; };
+		D2E32A0430A5AB790087B944 /* setup_tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58D258290CBE9FB600E3CF5A /* setup_tools.cpp */; };
+		D2E32A0530A5AB790087B944 /* Opticstar130.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58EB4C120D538936006B7157 /* Opticstar130.cpp */; };
+		D2E32A0630A5AB790087B944 /* QSI500.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5895D9260D616CE600B19589 /* QSI500.cpp */; };
+		D2E32A0730A5AB790087B944 /* QHY2Pro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5895D9280D616CE600B19589 /* QHY2Pro.cpp */; };
+		D2E32A0830A5AB790087B944 /* Opticstar145.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58DCCE560DEB0D8200BFD72C /* Opticstar145.cpp */; };
+		D2E32A0930A5AB790087B944 /* ASCOMCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58F210840DFBA5E7001A6E06 /* ASCOMCamera.cpp */; };
+		D2E32A0A30A5AB790087B944 /* Opticstar142.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 582EDEBF0E62093E00B7354E /* Opticstar142.cpp */; };
+		D2E32A0B30A5AB790087B944 /* Opticstar142c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58B3F39C0EAF913400EDDB3A /* Opticstar142c.cpp */; };
+		D2E32A0C30A5AB790087B944 /* serialport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 588898430ED4D7CD005B8BF4 /* serialport.cpp */; };
+		D2E32A0D30A5AB790087B944 /* qhy9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 583ED74D0FC7BA540043E9D8 /* qhy9.cpp */; };
+		D2E32A0E30A5AB790087B944 /* QHY8Pro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58FED1860FCF4D1B00F18967 /* QHY8Pro.cpp */; };
+		D2E32A0F30A5AB790087B944 /* DSSView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5896DAFC1038F08E00754FA2 /* DSSView.cpp */; };
+		D2E32A1030A5AB790087B944 /* Apogee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5896DAFD1038F08E00754FA2 /* Apogee.cpp */; };
+		D2E32A1130A5AB790087B944 /* altair_astro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 581C28B61C06286B0094BE9E /* altair_astro.cpp */; };
+		D2E32A1230A5AB790087B944 /* FLI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58A07C93104C82D100935597 /* FLI.cpp */; };
+		D2E32A1330A5AB790087B944 /* autoalign.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 589EEBC8109CF183003418B2 /* autoalign.cpp */; };
+		D2E32A1430A5AB790087B944 /* ext_filterwheel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58BCBACD10EC03340061A7AC /* ext_filterwheel.cpp */; };
+		D2E32A1530A5AB790087B944 /* Opticstar336.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58044C5411FF4586000C548B /* Opticstar336.cpp */; };
+		D2E32A1630A5AB790087B944 /* Moravian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58044C5511FF4586000C548B /* Moravian.cpp */; };
+		D2E32A1730A5AB790087B944 /* ASCOMLateCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58C77D221262C8F50013EA11 /* ASCOMLateCamera.cpp */; };
+		D2E32A1830A5AB790087B944 /* Opticstar615.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58249515128B00EB00E2A072 /* Opticstar615.cpp */; };
+		D2E32A1930A5AB790087B944 /* macro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 582C50A414E1EC6200D520CF /* macro.cpp */; };
+		D2E32A1A30A5AB790087B944 /* QHY10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 589BD0D915870C5500DC0F0C /* QHY10.cpp */; };
+		D2E32A1B30A5AB790087B944 /* QHY12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 589BD0DB15870C5500DC0F0C /* QHY12.cpp */; };
+		D2E32A1C30A5AB790087B944 /* QHY8L.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5884D005159CBDB500D8A58E /* QHY8L.cpp */; };
+		D2E32A1D30A5AB790087B944 /* Opticstar616.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5806D72A15C0F6AB00536F95 /* Opticstar616.cpp */; };
+		D2E32A1E30A5AB790087B944 /* focuser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5836CF6516053C970092F683 /* focuser.cpp */; };
+		D2E32A2030A5AB790087B944 /* libHIDUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5881D1BD0ADFBFF80071BE95 /* libHIDUtilities.a */; };
+		D2E32A2130A5AB790087B944 /* libASICamera2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DF43D31B9B7566006CFD71 /* libASICamera2.a */; };
+		D2E32A2230A5AB790087B944 /* libcfitsio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F487A73609BE24F2005A3E96 /* libcfitsio.a */; };
+		D2E32A2330A5AB790087B944 /* libDsiDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 581928180B036752008651FE /* libDsiDevice.a */; };
+		D2E32A2430A5AB790087B944 /* libSXMacLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 582710660B77B55400976AB9 /* libSXMacLib.a */; };
+		D2E32A2530A5AB790087B944 /* libftd2xx.1.2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 58929A281AA296C0006EB776 /* libftd2xx.1.2.2.dylib */; };
+		D2E32A2630A5AB790087B944 /* libwxpng-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58ECE80D1A0344790032AB92 /* libwxpng-3.1.a */; };
+		D2E32A2730A5AB790087B944 /* libEFWFilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58512F3D23122B340088F599 /* libEFWFilter.a */; };
+		D2E32A2830A5AB790087B944 /* libqhy8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 580D01AB0D751D4A00443557 /* libqhy8.a */; };
+		D2E32A2930A5AB790087B944 /* libqsiai_7_6_0_64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852644F0E14B561002F2164 /* libqsiai_7_6_0_64.a */; };
+		D2E32A2A30A5AB790087B944 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585836C70FE850CF00772871 /* OpenGL.framework */; };
+		D2E32A2B30A5AB790087B944 /* libQHYCSlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 589BD0D715870AB100DC0F0C /* libQHYCSlib.a */; };
+		D2E32A2C30A5AB790087B944 /* libatikcameras.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 580C09161D793495009EBE29 /* libatikcameras.dylib */; };
+		D2E32A2D30A5AB790087B944 /* libqhyccd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C17EFD244B9B95007687DE /* libqhyccd.a */; };
+		D2E32A2E30A5AB790087B944 /* libraw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 582ED04114959180002F8602 /* libraw.a */; };
+		D2E32A2F30A5AB790087B944 /* libfreeimage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5824BB4914A91BBD009F81E1 /* libfreeimage.a */; };
+		D2E32A3030A5AB790087B944 /* libusb-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 58929A291AA296C0006EB776 /* libusb-1.0.0.dylib */; };
+		D2E32A3130A5AB790087B944 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5862FF8F14BB79090006746D /* IOKit.framework */; };
+		D2E32A3230A5AB790087B944 /* libwx_baseu_xml-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BE9041526782200C42CEF /* libwx_baseu_xml-3.1.a */; };
+		D2E32A3330A5AB790087B944 /* libwx_baseu-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BE9051526782200C42CEF /* libwx_baseu-3.1.a */; };
+		D2E32A3430A5AB790087B944 /* libwx_osx_cocoau_adv-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BE9061526782200C42CEF /* libwx_osx_cocoau_adv-3.1.a */; };
+		D2E32A3530A5AB790087B944 /* libwx_osx_cocoau_aui-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BE9071526782200C42CEF /* libwx_osx_cocoau_aui-3.1.a */; };
+		D2E32A3630A5AB790087B944 /* libwx_osx_cocoau_core-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BE9081526782200C42CEF /* libwx_osx_cocoau_core-3.1.a */; };
+		D2E32A3730A5AB790087B944 /* libwx_osx_cocoau_media-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BE90A1526782200C42CEF /* libwx_osx_cocoau_media-3.1.a */; };
+		D2E32A3830A5AB790087B944 /* libwx_osx_cocoau_html-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BE9091526782200C42CEF /* libwx_osx_cocoau_html-3.1.a */; };
+		D2E32A3930A5AB790087B944 /* libwx_osx_cocoau_propgrid-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BE90B1526782200C42CEF /* libwx_osx_cocoau_propgrid-3.1.a */; };
+		D2E32A3A30A5AB790087B944 /* libftdi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852646A0E14B787002F2164 /* libftdi.a */; };
+		D2E32A3B30A5AB790087B944 /* libfli.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 581768AD1CCDAACA00F78ED9 /* libfli.a */; };
+		D2E32A3C30A5AB790087B944 /* EDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5848281419AEA193001BF25E /* EDSDK.framework */; };
+		D2E32A3D30A5AB790087B944 /* SBIGUDrv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BBA44156A054E0095447D /* SBIGUDrv.framework */; };
+		D2E32A3E30A5AB790087B944 /* libwx_baseu_net-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5844778A1A81E09A00F5CD38 /* libwx_baseu_net-3.1.a */; };
+		D2E32A3F30A5AB790087B944 /* liblcms2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58157B5E176994980056B3BD /* liblcms2.a */; };
+		D2E32A4130A5AB790087B944 /* libusb-1.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 58D186941ABF2E6200928AD9 /* libusb-1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D2E32A4230A5AB790087B944 /* EDSDK.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5848281419AEA193001BF25E /* EDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D2E32A4330A5AB790087B944 /* SBIGUDrv.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 586BBA44156A054E0095447D /* SBIGUDrv.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D2E32A4530A5AB790087B944 /* libusb-1.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 58929A291AA296C0006EB776 /* libusb-1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D2E32A4630A5AB790087B944 /* libftd2xx.1.2.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 58929A281AA296C0006EB776 /* libftd2xx.1.2.2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D2E32A4730A5AB790087B944 /* libatikcameras.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 580C09161D793495009EBE29 /* libatikcameras.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D2E32A4830A5AB790087B944 /* GREYCstoration in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5846BBFF0CB6A4D20054A36F /* GREYCstoration */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D2E32A4930A5AB790087B944 /* NebulosityDocs.pdf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 587F3E670AED3B83008A34B8 /* NebulosityDocs.pdf */; };
+		D2E32A4B30A5AB790087B944 /* nebulosity.mo in CopyFiles */ = {isa = PBXBuildFile; fileRef = 58FE756914EE10D800A429ED /* nebulosity.mo */; };
+		D2E32A4D30A5AB790087B944 /* nebulosity.mo in CopyFiles */ = {isa = PBXBuildFile; fileRef = 58FE756714EE10C300A429ED /* nebulosity.mo */; };
+		D2E32A4F30A5AB790087B944 /* nebulosity.mo in CopyFiles */ = {isa = PBXBuildFile; fileRef = 584BFB8914EEB73100DA5085 /* nebulosity.mo */; };
+		D2E32A5130A5AB790087B944 /* nebulosity.mo in CopyFiles */ = {isa = PBXBuildFile; fileRef = 584BFB8B14EEB74500DA5085 /* nebulosity.mo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -211,6 +340,81 @@
 			dstSubfolderSpec = 7;
 			files = (
 				58FE756D14EE114100A429ED /* nebulosity.mo in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E32A4030A5AB790087B944 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D2E32A4130A5AB790087B944 /* libusb-1.0.0.dylib in CopyFiles */,
+				D2E32A4230A5AB790087B944 /* EDSDK.framework in CopyFiles */,
+				D2E32A4330A5AB790087B944 /* SBIGUDrv.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E32A4430A5AB790087B944 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				D2E32A4530A5AB790087B944 /* libusb-1.0.0.dylib in CopyFiles */,
+				D2E32A4630A5AB790087B944 /* libftd2xx.1.2.2.dylib in CopyFiles */,
+				D2E32A4730A5AB790087B944 /* libatikcameras.dylib in CopyFiles */,
+				D2E32A4830A5AB790087B944 /* GREYCstoration in CopyFiles */,
+				D2E32A4930A5AB790087B944 /* NebulosityDocs.pdf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E32A4A30A5AB790087B944 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = fr;
+			dstSubfolderSpec = 7;
+			files = (
+				D2E32A4B30A5AB790087B944 /* nebulosity.mo in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E32A4C30A5AB790087B944 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = de;
+			dstSubfolderSpec = 7;
+			files = (
+				D2E32A4D30A5AB790087B944 /* nebulosity.mo in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E32A4E30A5AB790087B944 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = nl;
+			dstSubfolderSpec = 7;
+			files = (
+				D2E32A4F30A5AB790087B944 /* nebulosity.mo in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E32A5030A5AB790087B944 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = it;
+			dstSubfolderSpec = 7;
+			files = (
+				D2E32A5130A5AB790087B944 /* nebulosity.mo in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E32A5230A5AB790087B944 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = APyTools;
+			dstSubfolderSpec = 7;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +502,7 @@
 		586E61AE1AAE4CF50009F22C /* CamToolDialogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CamToolDialogs.h; sourceTree = "<group>"; };
 		5874C7C623E650B10045FF41 /* Starfish.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Starfish.cpp; sourceTree = "<group>"; };
 		5874C7C723E650B10045FF41 /* Starfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Starfish.h; sourceTree = "<group>"; };
-		587660DE1A895C770071CBA5 /* nebulosity3.profdata */ = {isa = PBXFileReference; lastKnownFileType = file; path = nebulosity3.profdata; sourceTree = "<group>"; };
+		587660DE1A895C770071CBA5 /* nebulosity3.profdata */ = {isa = PBXFileReference; path = nebulosity3.profdata; sourceTree = "<group>"; };
 		58770E1E23BEDE5100D3F68D /* Nebulosity4-64.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Nebulosity4-64.entitlements"; sourceTree = "<group>"; };
 		587F3E670AED3B83008A34B8 /* NebulosityDocs.pdf */ = {isa = PBXFileReference; explicitFileType = file; path = NebulosityDocs.pdf; sourceTree = "<group>"; };
 		5881D1A60ADFBDE10071BE95 /* DSUSB.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = DSUSB.cpp; sourceTree = "<group>"; };
@@ -386,6 +590,8 @@
 		58FF990C0AA3535400638F98 /* reconstruct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reconstruct.cpp; sourceTree = "<group>"; };
 		58FF99140AA3549C00638F98 /* CanonDSLR.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CanonDSLR.cpp; sourceTree = "<group>"; };
 		58FF99190AA354B200638F98 /* CanonDSLR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanonDSLR.h; sourceTree = "<group>"; };
+		D2E32A5730A5AB790087B944 /* Nebulosity 4 ARM64.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nebulosity 4 ARM64.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E32A5830A5AB790087B944 /* Nebulosity 4-64 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Nebulosity 4-64 copy-Info.plist"; path = "/Users/mwabner/Developer/OpenNebulosity/nebulosity4/Nebulosity 4-64 copy-Info.plist"; sourceTree = "<absolute>"; };
 		F487A70609BE2499005A3E96 /* alignment.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = alignment.cpp; sourceTree = "<group>"; };
 		F487A70709BE2499005A3E96 /* alignment.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = alignment.h; sourceTree = "<group>"; };
 		F487A70809BE2499005A3E96 /* camera.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = camera.cpp; sourceTree = "<group>"; };
@@ -451,6 +657,45 @@
 				586BBA45156A054E0095447D /* SBIGUDrv.framework in Frameworks */,
 				5844778B1A81E09A00F5CD38 /* libwx_baseu_net-3.1.a in Frameworks */,
 				58157B5F176994980056B3BD /* liblcms2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E32A1F30A5AB790087B944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E32A2030A5AB790087B944 /* libHIDUtilities.a in Frameworks */,
+				D2E32A2130A5AB790087B944 /* libASICamera2.a in Frameworks */,
+				D2E32A2230A5AB790087B944 /* libcfitsio.a in Frameworks */,
+				D2E32A2330A5AB790087B944 /* libDsiDevice.a in Frameworks */,
+				D2E32A2430A5AB790087B944 /* libSXMacLib.a in Frameworks */,
+				D2E32A2530A5AB790087B944 /* libftd2xx.1.2.2.dylib in Frameworks */,
+				D2E32A2630A5AB790087B944 /* libwxpng-3.1.a in Frameworks */,
+				D2E32A2730A5AB790087B944 /* libEFWFilter.a in Frameworks */,
+				D2E32A2830A5AB790087B944 /* libqhy8.a in Frameworks */,
+				D2E32A2930A5AB790087B944 /* libqsiai_7_6_0_64.a in Frameworks */,
+				D2E32A2A30A5AB790087B944 /* OpenGL.framework in Frameworks */,
+				D2E32A2B30A5AB790087B944 /* libQHYCSlib.a in Frameworks */,
+				D2E32A2C30A5AB790087B944 /* libatikcameras.dylib in Frameworks */,
+				D2E32A2D30A5AB790087B944 /* libqhyccd.a in Frameworks */,
+				D2E32A2E30A5AB790087B944 /* libraw.a in Frameworks */,
+				D2E32A2F30A5AB790087B944 /* libfreeimage.a in Frameworks */,
+				D2E32A3030A5AB790087B944 /* libusb-1.0.0.dylib in Frameworks */,
+				D2E32A3130A5AB790087B944 /* IOKit.framework in Frameworks */,
+				D2E32A3230A5AB790087B944 /* libwx_baseu_xml-3.1.a in Frameworks */,
+				D2E32A3330A5AB790087B944 /* libwx_baseu-3.1.a in Frameworks */,
+				D2E32A3430A5AB790087B944 /* libwx_osx_cocoau_adv-3.1.a in Frameworks */,
+				D2E32A3530A5AB790087B944 /* libwx_osx_cocoau_aui-3.1.a in Frameworks */,
+				D2E32A3630A5AB790087B944 /* libwx_osx_cocoau_core-3.1.a in Frameworks */,
+				D2E32A3730A5AB790087B944 /* libwx_osx_cocoau_media-3.1.a in Frameworks */,
+				D2E32A3830A5AB790087B944 /* libwx_osx_cocoau_html-3.1.a in Frameworks */,
+				D2E32A3930A5AB790087B944 /* libwx_osx_cocoau_propgrid-3.1.a in Frameworks */,
+				D2E32A3A30A5AB790087B944 /* libftdi.a in Frameworks */,
+				D2E32A3B30A5AB790087B944 /* libfli.a in Frameworks */,
+				D2E32A3C30A5AB790087B944 /* EDSDK.framework in Frameworks */,
+				D2E32A3D30A5AB790087B944 /* SBIGUDrv.framework in Frameworks */,
+				D2E32A3E30A5AB790087B944 /* libwx_baseu_net-3.1.a in Frameworks */,
+				D2E32A3F30A5AB790087B944 /* liblcms2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -759,6 +1004,7 @@
 				58BACC260E70DDAB004ED49A /* nebulosity-Info_XC6.plist */,
 				587660DD1A895C770071CBA5 /* OptimizationProfiles */,
 				5844197D22D8F679009D58FA /* Nebulosity 4 copy-Info.plist */,
+				D2E32A5830A5AB790087B944 /* Nebulosity 4-64 copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -766,6 +1012,7 @@
 			isa = PBXGroup;
 			children = (
 				58BACC240E70DDAB004ED49A /* Nebulosity4-64.app */,
+				D2E32A5730A5AB790087B944 /* Nebulosity 4 ARM64.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -797,6 +1044,30 @@
 			productReference = 58BACC240E70DDAB004ED49A /* Nebulosity4-64.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D2E329C730A5AB790087B944 /* Nebulosity 4 ARM64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E32A5330A5AB790087B944 /* Build configuration list for PBXNativeTarget "Nebulosity 4 ARM64" */;
+			buildPhases = (
+				D2E329C830A5AB790087B944 /* Resources */,
+				D2E329D530A5AB790087B944 /* Sources */,
+				D2E32A1F30A5AB790087B944 /* Frameworks */,
+				D2E32A4030A5AB790087B944 /* CopyFiles */,
+				D2E32A4430A5AB790087B944 /* CopyFiles */,
+				D2E32A4A30A5AB790087B944 /* CopyFiles */,
+				D2E32A4C30A5AB790087B944 /* CopyFiles */,
+				D2E32A4E30A5AB790087B944 /* CopyFiles */,
+				D2E32A5030A5AB790087B944 /* CopyFiles */,
+				D2E32A5230A5AB790087B944 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nebulosity 4 ARM64";
+			productName = nebulosity3;
+			productReference = D2E32A5730A5AB790087B944 /* Nebulosity 4 ARM64.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -807,6 +1078,10 @@
 				ORGANIZATIONNAME = "Stark Labs";
 				TargetAttributes = {
 					58BACBD10E70DDAB004ED49A = {
+						DevelopmentTeam = QPLDUH9V6T;
+						ProvisioningStyle = Manual;
+					};
+					D2E329C730A5AB790087B944 = {
 						DevelopmentTeam = QPLDUH9V6T;
 						ProvisioningStyle = Manual;
 					};
@@ -828,6 +1103,7 @@
 			projectRoot = "";
 			targets = (
 				58BACBD10E70DDAB004ED49A /* Nebulosity 4-64 */,
+				D2E329C730A5AB790087B944 /* Nebulosity 4 ARM64 */,
 			);
 		};
 /* End PBXProject section */
@@ -849,6 +1125,25 @@
 				58A346641A82F9C600AAFBC6 /* APyTools in Resources */,
 				58025CAA15AD4EBE0051BAC2 /* CCDAD_QHY12.HEX in Resources */,
 				581044EB15ADF97E00FF78C9 /* CCDAD_QHY9.HEX in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E329C830A5AB790087B944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E329C930A5AB790087B944 /* WarpImageMultiTransform in Resources */,
+				D2E329CA30A5AB790087B944 /* ConvertImagePixelType in Resources */,
+				D2E329CB30A5AB790087B944 /* Images.xcassets in Resources */,
+				D2E329CC30A5AB790087B944 /* ANTS in Resources */,
+				D2E329CD30A5AB790087B944 /* Neb4.icns in Resources */,
+				D2E329CE30A5AB790087B944 /* fxload-osx in Resources */,
+				D2E329CF30A5AB790087B944 /* CCDAD_QHY10.HEX in Resources */,
+				D2E329D030A5AB790087B944 /* CCDAD_QHY8PRO.HEX in Resources */,
+				D2E329D130A5AB790087B944 /* CCDAD_QHY8L.HEX in Resources */,
+				D2E329D230A5AB790087B944 /* APyTools in Resources */,
+				D2E329D330A5AB790087B944 /* CCDAD_QHY12.HEX in Resources */,
+				D2E329D430A5AB790087B944 /* CCDAD_QHY9.HEX in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -932,6 +1227,86 @@
 				5884D007159CBDB500D8A58E /* QHY8L.cpp in Sources */,
 				5806D72B15C0F6AB00536F95 /* Opticstar616.cpp in Sources */,
 				5836CF6716053C970092F683 /* focuser.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E329D530A5AB790087B944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E329D630A5AB790087B944 /* ZWOASI.cpp in Sources */,
+				D2E329D730A5AB790087B944 /* alignment.cpp in Sources */,
+				D2E329D830A5AB790087B944 /* Starfish.cpp in Sources */,
+				D2E329D930A5AB790087B944 /* camera.cpp in Sources */,
+				D2E329DA30A5AB790087B944 /* clock.cpp in Sources */,
+				D2E329DB30A5AB790087B944 /* debayer.cpp in Sources */,
+				D2E329DC30A5AB790087B944 /* display.cpp in Sources */,
+				D2E329DD30A5AB790087B944 /* dummy.cpp in Sources */,
+				D2E329DE30A5AB790087B944 /* file_tools.cpp in Sources */,
+				D2E329DF30A5AB790087B944 /* image_io.cpp in Sources */,
+				D2E329E030A5AB790087B944 /* image_manip.cpp in Sources */,
+				D2E329E130A5AB790087B944 /* image_math.cpp in Sources */,
+				D2E329E230A5AB790087B944 /* main_classes.cpp in Sources */,
+				D2E329E330A5AB790087B944 /* Nebulosity.cpp in Sources */,
+				D2E329E430A5AB790087B944 /* osxfuncs.cpp in Sources */,
+				D2E329E530A5AB790087B944 /* preprocess.cpp in Sources */,
+				D2E329E630A5AB790087B944 /* scripts.cpp in Sources */,
+				D2E329E730A5AB790087B944 /* APyTools.cpp in Sources */,
+				D2E329E830A5AB790087B944 /* manual_color_camera.cpp in Sources */,
+				D2E329E930A5AB790087B944 /* sac10.cpp in Sources */,
+				D2E329EA30A5AB790087B944 /* SAC78.CPP in Sources */,
+				D2E329EB30A5AB790087B944 /* simulator.cpp in Sources */,
+				D2E329EC30A5AB790087B944 /* Starshoot.cpp in Sources */,
+				D2E329ED30A5AB790087B944 /* CIM.cpp in Sources */,
+				D2E329EE30A5AB790087B944 /* CamToolDialogs.cpp in Sources */,
+				D2E329EF30A5AB790087B944 /* drizzle.cpp in Sources */,
+				D2E329F030A5AB790087B944 /* artemis.cpp in Sources */,
+				D2E329F130A5AB790087B944 /* quality.cpp in Sources */,
+				D2E329F230A5AB790087B944 /* canon_cr2.cpp in Sources */,
+				D2E329F330A5AB790087B944 /* reconstruct.cpp in Sources */,
+				D2E329F430A5AB790087B944 /* CanonDSLR.cpp in Sources */,
+				D2E329F530A5AB790087B944 /* preferences.cpp in Sources */,
+				D2E329F630A5AB790087B944 /* DSUSB.cpp in Sources */,
+				D2E329F730A5AB790087B944 /* QHYUniversal.cpp in Sources */,
+				D2E329F830A5AB790087B944 /* MeadeDSI.cpp in Sources */,
+				D2E329F930A5AB790087B944 /* LRGB.cpp in Sources */,
+				D2E329FA30A5AB790087B944 /* WDM.cpp in Sources */,
+				D2E329FB30A5AB790087B944 /* preview.cpp in Sources */,
+				D2E329FC30A5AB790087B944 /* geometry.cpp in Sources */,
+				D2E329FD30A5AB790087B944 /* SXV.cpp in Sources */,
+				D2E329FE30A5AB790087B944 /* SBIG.cpp in Sources */,
+				D2E329FF30A5AB790087B944 /* focus.cpp in Sources */,
+				D2E32A0030A5AB790087B944 /* Q8HR.cpp in Sources */,
+				D2E32A0130A5AB790087B944 /* Opticstar335.cpp in Sources */,
+				D2E32A0230A5AB790087B944 /* qhy268.cpp in Sources */,
+				D2E32A0330A5AB790087B944 /* greyc.cpp in Sources */,
+				D2E32A0430A5AB790087B944 /* setup_tools.cpp in Sources */,
+				D2E32A0530A5AB790087B944 /* Opticstar130.cpp in Sources */,
+				D2E32A0630A5AB790087B944 /* QSI500.cpp in Sources */,
+				D2E32A0730A5AB790087B944 /* QHY2Pro.cpp in Sources */,
+				D2E32A0830A5AB790087B944 /* Opticstar145.cpp in Sources */,
+				D2E32A0930A5AB790087B944 /* ASCOMCamera.cpp in Sources */,
+				D2E32A0A30A5AB790087B944 /* Opticstar142.cpp in Sources */,
+				D2E32A0B30A5AB790087B944 /* Opticstar142c.cpp in Sources */,
+				D2E32A0C30A5AB790087B944 /* serialport.cpp in Sources */,
+				D2E32A0D30A5AB790087B944 /* qhy9.cpp in Sources */,
+				D2E32A0E30A5AB790087B944 /* QHY8Pro.cpp in Sources */,
+				D2E32A0F30A5AB790087B944 /* DSSView.cpp in Sources */,
+				D2E32A1030A5AB790087B944 /* Apogee.cpp in Sources */,
+				D2E32A1130A5AB790087B944 /* altair_astro.cpp in Sources */,
+				D2E32A1230A5AB790087B944 /* FLI.cpp in Sources */,
+				D2E32A1330A5AB790087B944 /* autoalign.cpp in Sources */,
+				D2E32A1430A5AB790087B944 /* ext_filterwheel.cpp in Sources */,
+				D2E32A1530A5AB790087B944 /* Opticstar336.cpp in Sources */,
+				D2E32A1630A5AB790087B944 /* Moravian.cpp in Sources */,
+				D2E32A1730A5AB790087B944 /* ASCOMLateCamera.cpp in Sources */,
+				D2E32A1830A5AB790087B944 /* Opticstar615.cpp in Sources */,
+				D2E32A1930A5AB790087B944 /* macro.cpp in Sources */,
+				D2E32A1A30A5AB790087B944 /* QHY10.cpp in Sources */,
+				D2E32A1B30A5AB790087B944 /* QHY12.cpp in Sources */,
+				D2E32A1C30A5AB790087B944 /* QHY8L.cpp in Sources */,
+				D2E32A1D30A5AB790087B944 /* Opticstar616.cpp in Sources */,
+				D2E32A1E30A5AB790087B944 /* focuser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1368,6 +1743,369 @@
 			};
 			name = Default;
 		};
+		D2E32A5430A5AB790087B944 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CANONDIR = "$(LIBDIR)/EDSDK_v131231_Macintosh";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CODE_SIGN_ENTITLEMENTS = "Nebulosity4-64.entitlements";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = QPLDUH9V6T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OPENMP_SUPPORT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Library/Frameworks,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(SRCROOT)/cameras",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(CANONDIR)/EDSDK/Framework\"";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = precomp.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/Users/stark/dev/HID64,
+					/Users/stark/dev/Canon/Current/EDSDK/Header,
+					"$(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1",
+					"$(WXDIR)/include",
+					/Users/stark/dev/FreeImage_3_18/Dist,
+					/Users/stark/dev/cfitsio,
+					"$(LIBRAWDIR)libraw",
+					/usr/local/include,
+					"$(SRCROOT)/cameras/AOSX",
+				);
+				INFOPLIST_FILE = "Nebulosity 4-64 copy-Info.plist";
+				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib @loader_path/../Frameworks @loader_path/../Resources";
+				LIBDIR = "$(SRCROOT)/../Mac_Libraries";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/stark/dev/cfitsio,
+					"$(PROJECT_DIR)/cameras/AOSX",
+					"$(WXDIR)/Cocoa/lib",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRAWDIR)/lib",
+					/usr/lib,
+					/Users/stark/dev/FreeImage_3_18/Dist,
+					"\"$(SRCROOT)/cameras\"",
+					"$(PROJECT_DIR)/cameras",
+					"$(PROJECT_DIR)/APyTools",
+					"/Users/stark/dev/armadillo-4.600.4",
+					"/Users/stark/dev/armadillo-4.600.4/xcodetest/armadillofuncs/Build/Products/Release",
+					/opt/local/lib,
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(CANONDIR)/EDSDK/Framework/EDSDK.framework\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/cameras\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(LIBDIR)/HID64/build/Deployment\"";
+				LIBRAWDIR = "$(LIBDIR)/LibRaw-0.20.2";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_CFLAGS = (
+					"-D__WXMAC__",
+					"-D_FILE_OFFSET_BITS=64",
+					"-D_LARGE_FILES",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+					"-DNO_GCC_PRAGMA",
+					"-DNEB2",
+					"-DNEB2IL",
+					"-DN64MAC",
+				);
+				OTHER_CODE_SIGN_FLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SBIGUDrv,
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					System,
+					"-framework",
+					WebKit,
+					"-framework",
+					AudioToolbox,
+					"-lz",
+					"-lpthread",
+					"-liconv",
+					"-framework",
+					Accelerate,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Neb4-64 DevID 2025";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+				USER_HEADER_SEARCH_PATHS = "$(CANONDIR)/EDSDK/Header $(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1 $(WXDIR)/include $(LIBDIR)/cfitsio_3290 $(LIBRAWDIR)/libraw /usr/local/include";
+				VALID_ARCHS = "i386 x86_64";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WXDIR = "$(LIBDIR)/wxWidgets-3.1.2";
+			};
+			name = Development;
+		};
+		D2E32A5530A5AB790087B944 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CANONDIR = "$(LIBDIR)/EDSDK_v131231_Macintosh";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CODE_SIGN_ENTITLEMENTS = "Nebulosity4-64.entitlements";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = QPLDUH9V6T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OPENMP_SUPPORT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Library/Frameworks,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(SRCROOT)/cameras",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(CANONDIR)/EDSDK/Framework\"";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = precomp.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/Users/stark/dev/HID64,
+					/Users/stark/dev/Canon/Current/EDSDK/Header,
+					"$(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1",
+					"$(WXDIR)/include",
+					/Users/stark/dev/FreeImage_3_18/Dist,
+					/Users/stark/dev/cfitsio,
+					"$(LIBRAWDIR)libraw",
+					/usr/local/include,
+					"$(SRCROOT)/cameras/AOSX",
+				);
+				INFOPLIST_FILE = "Nebulosity 4-64 copy-Info.plist";
+				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib @loader_path/../Frameworks @loader_path/../Resources";
+				LIBDIR = "$(SRCROOT)/../Mac_Libraries";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/stark/dev/cfitsio,
+					"$(PROJECT_DIR)/cameras/AOSX",
+					"$(WXDIR)/Cocoa/lib",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRAWDIR)/lib",
+					/usr/lib,
+					/Users/stark/dev/FreeImage_3_18/Dist,
+					"\"$(SRCROOT)/cameras\"",
+					"$(PROJECT_DIR)/cameras",
+					"$(PROJECT_DIR)/APyTools",
+					"/Users/stark/dev/armadillo-4.600.4",
+					"/Users/stark/dev/armadillo-4.600.4/xcodetest/armadillofuncs/Build/Products/Release",
+					/opt/local/lib,
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(CANONDIR)/EDSDK/Framework/EDSDK.framework\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/cameras\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(LIBDIR)/HID64/build/Deployment\"";
+				LIBRAWDIR = "$(LIBDIR)/LibRaw-0.20.2";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_CFLAGS = (
+					"-D__WXMAC__",
+					"-D_FILE_OFFSET_BITS=64",
+					"-D_LARGE_FILES",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+					"-DNO_GCC_PRAGMA",
+					"-DNEB2",
+					"-DNEB2IL",
+					"-DN64MAC",
+				);
+				OTHER_CODE_SIGN_FLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SBIGUDrv,
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					System,
+					"-framework",
+					WebKit,
+					"-framework",
+					AudioToolbox,
+					"-lz",
+					"-lpthread",
+					"-liconv",
+					"-framework",
+					Accelerate,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Neb4-64 DevID 2025";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+				USER_HEADER_SEARCH_PATHS = "$(CANONDIR)/EDSDK/Header $(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1 $(WXDIR)/include $(LIBDIR)/cfitsio_3290 $(LIBRAWDIR)/libraw /usr/local/include";
+				VALID_ARCHS = "i386 x86_64";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WXDIR = "$(LIBDIR)/wxWidgets-3.1.2";
+			};
+			name = Deployment;
+		};
+		D2E32A5630A5AB790087B944 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CANONDIR = "$(LIBDIR)/EDSDK_v131231_Macintosh";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CODE_SIGN_ENTITLEMENTS = "Nebulosity4-64.entitlements";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = QPLDUH9V6T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OPENMP_SUPPORT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Library/Frameworks,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(SRCROOT)/cameras",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(CANONDIR)/EDSDK/Framework\"";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = precomp.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/Users/stark/dev/HID64,
+					/Users/stark/dev/Canon/Current/EDSDK/Header,
+					"$(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1",
+					"$(WXDIR)/include",
+					/Users/stark/dev/FreeImage_3_18/Dist,
+					/Users/stark/dev/cfitsio,
+					"$(LIBRAWDIR)libraw",
+					/usr/local/include,
+					"$(SRCROOT)/cameras/AOSX",
+				);
+				INFOPLIST_FILE = "Nebulosity 4-64 copy-Info.plist";
+				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib @loader_path/../Frameworks @loader_path/../Resources";
+				LIBDIR = "$(SRCROOT)/../Mac_Libraries";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/stark/dev/cfitsio,
+					"$(PROJECT_DIR)/cameras/AOSX",
+					"$(WXDIR)/Cocoa/lib",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(LIBRAWDIR)/lib",
+					/usr/lib,
+					/Users/stark/dev/FreeImage_3_18/Dist,
+					"\"$(SRCROOT)/cameras\"",
+					"$(PROJECT_DIR)/cameras",
+					"$(PROJECT_DIR)/APyTools",
+					"/Users/stark/dev/armadillo-4.600.4",
+					"/Users/stark/dev/armadillo-4.600.4/xcodetest/armadillofuncs/Build/Products/Release",
+					/opt/local/lib,
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(CANONDIR)/EDSDK/Framework/EDSDK.framework\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/cameras\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(LIBDIR)/HID64/build/Deployment\"";
+				LIBRAWDIR = "$(LIBDIR)/LibRaw-0.20.2";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_CFLAGS = (
+					"-D__WXMAC__",
+					"-D_FILE_OFFSET_BITS=64",
+					"-D_LARGE_FILES",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+					"-DNO_GCC_PRAGMA",
+					"-DNEB2",
+					"-DNEB2IL",
+					"-DN64MAC",
+				);
+				OTHER_CODE_SIGN_FLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SBIGUDrv,
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					System,
+					"-framework",
+					WebKit,
+					"-framework",
+					AudioToolbox,
+					"-lz",
+					"-lpthread",
+					"-liconv",
+					"-framework",
+					Accelerate,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Neb4-64 DevID 2025";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+				USER_HEADER_SEARCH_PATHS = "$(CANONDIR)/EDSDK/Header $(WXDIR)/Cocoa/lib/wx/include/osx_cocoa-unicode-static-3.1 $(WXDIR)/include $(LIBDIR)/cfitsio_3290 $(LIBRAWDIR)/libraw /usr/local/include";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WXDIR = "$(LIBDIR)/wxWidgets-3.1.2";
+			};
+			name = Default;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1387,6 +2125,16 @@
 				58E94E7409CC93B0006073FB /* Development */,
 				58E94E7509CC93B0006073FB /* Deployment */,
 				58E94E7609CC93B0006073FB /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		D2E32A5330A5AB790087B944 /* Build configuration list for PBXNativeTarget "Nebulosity 4 ARM64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E32A5430A5AB790087B944 /* Development */,
+				D2E32A5530A5AB790087B944 /* Deployment */,
+				D2E32A5630A5AB790087B944 /* Default */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Default;
