@@ -1,0 +1,12 @@
+ARCHS = arm64
+ONLY_ACTIVE_ARCH = NO
+MACOSX_DEPLOYMENT_TARGET = 14.0
+ALWAYS_SEARCH_USER_PATHS = NO
+
+HEADER_SEARCH_PATHS = $(inherited) /opt/homebrew/include /opt/homebrew/include/wx-3.3 /opt/homebrew/lib/wx/include/osx_cocoa-unicode-3.3
+
+LIBRARY_SEARCH_PATHS = $(inherited) /opt/homebrew/lib
+
+OTHER_CPLUSPLUSFLAGS = $(inherited) -D_FILE_OFFSET_BITS=64 -DWXUSINGDLL
+
+CODE_SIGNING_ALLOWED = NO
