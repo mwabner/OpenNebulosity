@@ -4,6 +4,12 @@ Development fork of [Craig Stark's OpenNebulosity](https://github.com/celstark/O
 
 **Active development branch: [`feature/macos-arm64`](https://github.com/mwabner/OpenNebulosity/tree/feature/macos-arm64).** This is an experimental native macOS ARM64 port, not a production release or a claim of complete camera compatibility. The historical Intel and Windows sources and targets remain available; they are not covered by the current ARM64 validation.
 
+## Long-term development goal
+
+Apple Silicon ARM64 is the primary development and validation target. The goal is a maintainable native macOS application with a shared image-processing core and clearly separated camera backends for Sony, Nikon and Canon, with compatibility verified per model and function.
+
+Intel and Windows code remain as legacy references while shared code and camera dependencies are being separated. Before removing legacy targets or libraries from the active development branch, preserve their last documented state in a dedicated legacy branch or tag and confirm that the ARM64 build no longer needs them. The intended end state is a lean ARM64-focused development branch, with historical platform support retained separately. Legacy removal is a later, reviewed migration step, not a deletion planned for the current preview.
+
 ## Current status
 
 | Area | Status |

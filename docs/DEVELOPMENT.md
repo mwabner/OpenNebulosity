@@ -2,6 +2,10 @@
 
 Work on `feature/macos-arm64`. The current default branch `main` preserves the historical baseline. This branch's README and the repository About text describe the ARM64 effort. Keep shared application code and legacy targets intact until backend separation is complete.
 
+## Architecture direction
+
+Prioritize native ARM64 development and tests. Separate camera backends from the image-processing core, then retire unnecessary legacy dependencies from the active branch. Preserve the last documented Intel/Windows state in a legacy branch or tag before removal, and verify that clean ARM64 builds and regression tests are independent of the files being retired. Until that migration is explicitly carried out, keep legacy targets and shared sources intact. See the repository README's long-term development goal.
+
 ## A complete checkout
 
 Use a normal clone of the development branch. The tracked `Mac_Libraries` and `nebulosity4/cameras` inputs are required even though their Intel binaries are not linked into the new capture adapter. Do not copy a build folder or local Xcode user settings as a substitute for source. Private test photographs are intentionally absent.
